@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ttl-type5{
+	background:url(../../img/common/main_bg_s.jpg) no-repeat right #FFF;
+}
+.detail-btn{
+	width:200px;
+}
+#case .case-area{
+	margin-bottom:50px;
+}
+#case .case-area .txt-area{
+	width:100%;
+	float:none;
+}
+#case .img-area{
+	margin-top:25px;
+	margin-right:25px;
+	float:left;
+}
+#case .case-area .ttl{
+	font-size:20px;
+}
+#case .case-area .txt-area .txt-box{
+	float:left;
+	width:380px;
+	margin-top:25px;
+}
+#case .case-area .txt-area .txt{
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 640px){
+
+.ttl-type5{
+	font-size: 25px;
+	line-height:1.2;
+	background-size:contain;
+}
+.ttl-type5 .small {
+	display:block;
+	font-size: 22px;
+}
+#case .case-area {
+	margin-bottom: 10%;
+	padding:0 3%;
+}
+#case .img-area{
+	float:none;
+	margin:0;
+}
+#case .case-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+#case .img-area img{
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+#case .case-area .txt-area .txt {
+	display:none;
+}
+#case .case-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+
+
+}
+
+/*============================
+.sp_device
+============================*/
+.sp_device .ttl-type5{
+	font-size: 25px;
+	line-height:1.2;
+	background-size:contain;
+}
+.sp_device .ttl-type5 .small {
+	display:block;
+	font-size: 22px;
+}
+.sp_device #case .case-area {
+	margin-bottom: 10%;
+	padding:0 3%;
+}
+.sp_device #case .img-area{
+	float:none;
+	margin:0;
+}
+.sp_device #case .case-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+.sp_device #case .img-area img{
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+.sp_device #case .case-area .txt-area .txt {
+	display:none;
+}
+.sp_device #case .case-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+
+
+
