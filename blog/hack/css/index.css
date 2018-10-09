@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.main{
+	padding:50px 0 70px;
+	background:#fff;
+}
+.main .frame{
+	padding:0;
+	position:relative;
+}
+.main .ttl-type1{
+	float:left;
+}
+.main .txt{
+	z-index:2;
+	position:absolute;
+	left:380px;
+	top:-20px;
+	width:435px;
+	font-size:16px;
+}
+.main .bg{
+	position:absolute;
+	top:-94px;
+	right:0;
+	z-index:1;
+}
+.contents-area .frame{
+	padding:60px 0 100px;
+}
+.bnr-area li.pc-only{
+	margin-bottom:70px;
+}
+
+/*============================
+#blog
+============================*/
+#blog .year{
+	margin-bottom:15px;
+	font-size:18px;
+}
+#blog .year img{
+	margin-right:7px;
+	width:25px;
+	height:25px;
+}
+
+#blog .feature .ttl-type6 {
+	text-indent:0;
+	padding: 0 20px 15px;
+}
+#blog .feature .ttl-type6:before {
+	content: none;
+	display: none;
+}
+
+#blog .box{
+	border-bottom:1px solid #bbb;
+}
+#blog .feature .box .col-r {
+	padding-right:20px;
+	width: 395px;
+	float: right;
+}
+#blog .feature .box .img-l {
+	width: 290px;
+	float: left;
+}
+#blog .feature .box .detail-btn {
+	margin-bottom:15px;
+}
+
+
+/*============================
+tag-list
+============================*/
+.feature .tag-list{
+	margin:20px;
+}
+.feature .tag-list p{
+	margin-right:10px;
+	padding-top:1px;
+}
+.feature .tag-list li{
+	margin:0 6px 6px 0;
+	background:#e30214 url(../img/keylist_icon01.jpg) left center no-repeat;
+/*	background-size:contain;*/
+	float:left;
+	border-radius: 0 4px 4px 0;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+}
+.feature .tag-list li a{
+	padding: 5px 10px 5px 20px;
+	color:#fff;
+	display:block;
+}
+.feature .tag-list li a:hover {
+	opacity:.75;
+	filter:alpha(opacity=75);
+	text-decoration:none;
+}
+
+
+/*============================
+pager-area
+============================*/
+.pager-area ul{
+	border:1px solid #eee;
+	background:#fbfbfb;
+}
+.pager-area ul li{
+	height:50px;
+	min-width:50px;
+	float:left;
+	text-align:center;
+	border-right:1px solid #eee;
+	box-sizing:border-box;
+}
+.pager-area ul li a{
+	padding:18px 0 19px;
+	display:block;
+	text-decoration:none;
+}
+.pager-area ul li.page-txt{
+	width:125px;
+	padding:18px 0 19px;
+}
+.pager-area ul li.first a{
+	width:82px;
+	background: url(../img/arrow9.jpg) 15% center no-repeat;
+}
+.pager-area ul li.prev a{
+	width:107px;
+	background: url(../../../common/img/arrow7.png) 15% center no-repeat;
+}
+.pager-area ul li.next a{
+	width:80px;
+	background: url(../../../common/img/arrow8.png) 85% center no-repeat;
+}
+.pager-area ul li.last a{
+	width:80px;
+	background: url(../img/arrow10.jpg) 85% center no-repeat;
+	border-right:none;
+}
+.pager-area ul li.last{
+	border-right:none;
+}
+.pager-area ul li.active{
+	padding:18px 0 19px;
+	color:#fff;
+	background:#e30214;
+}
+
+
+
+@media screen and (max-width: 640px){
+.main{
+	font-size:16px;
+	padding:0;
+}
+.main >.frame{
+	background: url(../img/main_bg.jpg) right top no-repeat;
+	background-size: auto 100%;
+}
+.main .frame{
+	padding:0 20px;
+}
+.main .ttl-type1{
+	float:none;
+	margin:0;
+	padding:35px 0;
+}
+.main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.contents-area {
+	padding: 5% 3% 12% 3%;
+}
+.contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+/*============================
+#blog
+============================*/
+#blog .img-area{
+	float:none;
+	margin:0;
+}
+#blog .feature .ttl-type6 {
+	padding: 0 10px 15px;
+}
+#blog .img-area img{
+	margin-bottom:27px;
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+#blog .feature .box .col-r,
+#blog .feature .box .img-l {
+	width: 100%;
+	padding-right:0;
+}
+.bnr-area li.sp-only{
+	margin:50px 0 80px;
+}
+
+/*============================
+tag-list
+============================*/
+.feature .tag-list{
+	margin:10px;
+}
+
+.feature .tag-list li{
+	background-size:15px;
+}
+
+
+/*============================
+pager-area
+============================*/
+.pager-area ul li{
+	width:50%;
+}
+.pager-area ul li.prev a{
+	width:100%;
+	padding-left:25%;
+	text-align:left;
+	box-sizing:border-box;
+}
+.pager-area ul li.next a{
+	width:100%;
+	padding-right:25%;
+	text-align:right;
+	box-sizing:border-box;
+}
+
+
+/*============================
+#side-nav
+============================*/
+#side-nav{
+	width:100%;
+	margin-left: 0;
+	margin-bottom:18%;
+	float:none;
+	display:block;
+}
+#side-nav .side-ttl{
+	width:100%;
+	display: block;
+}
+
+#side-nav .side-contact-box{
+	display:none;
+}
+
+
+}
+
+/*============================
+.sp_device
+============================*/
+.sp_device .main{
+	font-size:16px;
+	padding:0;
+}
+.sp_device .main >.frame{
+	background: url(../img/main_bg.jpg) right top no-repeat;
+	background-size: auto 100%;
+}
+.sp_device .main .frame{
+	padding:0 20px;
+}
+.sp_device .main .ttl-type1{
+	float:none;
+	margin:0;
+	padding:35px 0;
+}
+.sp_device .main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.sp_device .main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.sp_device .contents-area {
+	padding: 5% 3% 12% 3%;
+}
+.sp_device .contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+/*============================
+#blog
+============================*/
+.sp_device #blog .img-area{
+	float:none;
+	margin:0;
+}
+.sp_device #blog .img-area img{
+	margin-bottom:27px;
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+.sp_device #blog .feature .box .col-r,
+.sp_device #blog .feature .box .img-l {
+	width: 100%;
+	padding-right:0;
+}
+.sp_device .bnr-area li.sp-only{
+	margin:50px 0 80px;
+}
+
+/*============================
+tag-list
+============================*/
+.sp_device .feature .tag-list{
+	margin:10px;
+}
+
+.sp_device .feature .tag-list li{
+	background-size:15px;
+}
+
+
+/*============================
+pager-area
+============================*/
+.sp_device .pager-area ul li{
+	width:50%;
+}
+.sp_device .pager-area ul li.prev a{
+	width:100%;
+	padding-left:25%;
+	text-align:left;
+	box-sizing:border-box;
+}
+.sp_device .pager-area ul li.next a{
+	width:100%;
+	padding-right:25%;
+	text-align:right;
+	box-sizing:border-box;
+}
+
+
+/*============================
+#side-nav
+============================*/
+.sp_device #side-nav{
+	width:100%;
+	margin-left: 0;
+	margin-bottom:18%;
+	float:none;
+	display:block;
+}
+.sp_device #side-nav .side-ttl{
+	width:100%;
+	display: block;
+}
+
+.sp_device #side-nav .side-contact-box{
+	display:none;
+}
+
