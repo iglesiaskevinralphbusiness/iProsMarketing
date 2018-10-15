@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+.ttl-type5{
+	background:url(../img/main_bg.jpg) no-repeat right #FFF;
+}
+
+.main{
+	padding:50px 0 70px;
+}
+.main .frame{
+	position:relative;
+}
+.main .ttl-type1{
+	float:left;
+}
+.main .txt{
+	z-index:2;
+	position:absolute;
+	left:240px;
+	top:-45px;
+	width:640px;
+	font-size:16px;
+}
+.main .bg{
+	position:absolute;
+	top:-94px;
+	right:0;
+	z-index:1;
+}
+.contents-area .frame{
+	padding:60px 0 100px;
+}
+
+.ttl02{
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+
+
+/*============================
+#seminar
+============================*/
+
+.case-list li:nth-child(n+9){
+	display:none;
+}
+.case-list li:nth-child(4n){
+	margin-right:0;
+}
+
+#seminar .bnr-area{
+	margin:0 auto;
+	text-align:center;
+}
+
+#seminar .bnr-area .pc-only{
+	margin-bottom: 70px;
+}
+
+#seminar .seminar .txt-area{
+	margin-bottom:64px;
+}
+#seminar .seminar .txt-area .txt {
+	font-size: 16px;
+	margin-bottom:3px;
+}
+
+#seminar .seminar .txt-area p.small{
+	margin-left:30px;
+	font-size:12px;
+}
+.img-area-le,
+.img-area-ri{
+	width:auto;
+}
+.wid295{width:295px;}
+.wid400{width:400px;}
+.wid450{width:450px;}
+.wid480{width:480px;}
+
+#seminar .box-table{
+	margin:0;
+}
+.box .txt-icon{
+	padding:6px 12px 4px;
+	margin-bottom:12px;
+	background:#e30214;
+	color:#fff;
+	display:inline-block;
+	border-radius:4px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+
+/*============================
+.form-bnr
+============================*/
+.form-bnr{
+	margin-bottom:0;
+}
+
+
+/*============================
+.detail-table
+============================*/
+.box .detail-table table{
+	width:100%;
+}
+.box .detail-table th,
+.box .detail-table td{
+	padding:18px 0 15px;
+	border:1px solid #999;/*#eee*/
+}
+.box .detail-table th{
+	width:220px;
+	text-align:center;
+	background:#ccc;
+}
+.box .detail-table td{
+	padding-left:40px;
+	background:#fff;
+}
+
+
+@media screen and (max-width: 640px){
+.main{
+	font-size:16px;
+	padding:0;
+}
+.main .frame{
+	padding:0 20px;
+}
+.main .ttl-type1{
+	float:none;
+}
+.main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+.img-area-le,
+.img-area-ri{
+	width:auto;
+}
+.wid295, .wid400, .wid425, .wid480{width:100%;}
+
+/*============================
+#seminar
+============================*/
+#seminar{
+	margin-bottom:13.33%;
+}
+#seminar .seminar .txt-area .ttl{
+	font-size:17px;	
+}
+#seminar .seminar .txt-area .txt{
+	margin-bottom:20px;
+}
+#seminar .seminar .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+#seminar .seminar .img-area{
+	float:none;
+}
+#seminar .seminar .txt-area{
+	width:100%;
+	float:none;
+}
+#task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+.box .txt-icon{
+	margin-bottom:6%;
+}
+
+
+/*============================
+.form-bnr
+============================*/
+.form-bnr{
+	margin-bottom:40px;
+}
+.form-bnr .bnr-area.seminor li{
+	width:auto;
+	max-width:100%;
+}
+.form-bnr .bnr-area.seminor li a span{
+	width:auto;
+}
+.form-bnr .bnr-area.seminor li a img{
+	margin:0 0 0 auto;
+}
+
+
+/*============================
+.detail-table
+============================*/
+.box .detail-table th{
+	width:35%;
+}
+.box .detail-table td{
+	padding-left:20px;
+	padding-right:12px;
+}
+
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device .main{
+	font-size:16px;
+	padding:0;
+}
+.sp_device .main .frame{
+	padding:0 20px;
+}
+.sp_device .main .ttl-type1{
+	float:none;
+}
+.sp_device .main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.sp_device .main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.sp_device .contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+/*============================
+#seminar
+============================*/
+.sp_device #seminar .seminar{
+	padding:0 10px;
+}
+.sp_device #seminar .seminar .txt-area .ttl{
+	font-size:17px;	
+}
+.sp_device #seminar .seminar .txt-area .txt{
+	margin-bottom:20px;
+}
+.sp_device #seminar .seminar .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+.sp_device #seminar .seminar .img-area{
+	float:none;
+}
+.sp_device #seminar .seminar .txt-area{
+	width:100%;
+	float:none;
+}
+
+.sp_device #task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+
+
+/*============================
+.form-bnr
+============================*/
+.sp_device .form-bnr{
+	margin-bottom:40px;
+}
+.sp_device .form-bnr .bnr-area.seminor li{
+	width:auto;
+	max-width:100%;
+}
+.sp_device .form-bnr .bnr-area.seminor li a span{
+	width:auto;
+}
+.sp_device .form-bnr .bnr-area.seminor li a img{
+	margin:0 0 0 auto;
+}
+
+
+/*============================
+.detail-table
+============================*/
+.sp_device .box .detail-table th{
+	width:35%;
+}
+.sp_device .box .detail-table td{
+	padding-left:20px;
+	padding-right:12px;
+}
+
+/*============================
+追記分
+============================*/
+#seminar .seminar .box .col-type .txt-area-detail {
+	float:left;
+	font-size:16px;
+}
+
+#seminar .box-table-article p.title{
+	padding:8px;
+	text-align:center;
+	background:#999;
+	color:#fff;
+	font-weight:100;
+}
+
+#seminar .box-table-article dt.title{
+	padding:8px;
+	text-align:center;
+	background:#999;
+	color:#fff;
+	font-weight:100;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+#seminar .box-table-article .txt-area-box{
+	padding:15px;
+	border-left:1px solid #eee;
+	border-bottom:1px solid #eee;
+	border-right:1px solid #eee;
+}

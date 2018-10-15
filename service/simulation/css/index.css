@@ -1,0 +1,513 @@
+select {
+  color: #414141;
+  font-size: 1.1em;
+  padding: 2px;
+  max-width: 500px;
+  border: 1px solid #bbb;
+}
+
+.ttl-type5 {
+  background: url(../img/main_bg_s.jpg) no-repeat right #FFF;
+}
+
+.simulation-area {
+  border: solid 2px #999;
+  padding: 32px 37px 30px 37px;
+}
+
+.simStep {
+  display: table;
+  margin: 0 auto 30px auto;
+}
+.simStep > li {
+  width: 207px;
+  height: 77px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 26px;
+}
+.simStep > li.first {
+  background: url(/service/simulation/img/sim_flow1_off.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.simStep > li.first.current {
+  background-image: url(/service/simulation/img/sim_flow1_on.gif);
+  color: #fff;
+}
+.simStep > li.second {
+  background: url(/service/simulation/img/sim_flow2_off.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.simStep > li.second.current {
+  background-image: url(/service/simulation/img/sim_flow2_on.gif);
+  color: #fff;
+}
+.simStep > li.third {
+  background: url(/service/simulation/img/sim_flow3_off.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.simStep > li.third.current {
+  background-image: url(/service/simulation/img/sim_flow3_on.gif);
+  color: #fff;
+}
+
+.select-area {
+  margin-bottom: 20px;
+}
+.select-area .select-list > li {
+  width: 206px;
+  height: 80px;
+  float: left;
+  font-size: 18px;
+  margin: 0 0 10px 14px;
+  background-color: #fff;
+  border: solid 1px #bbbbbb;
+  display: table;
+}
+.select-area .select-list > li:nth-child(3n+1) {
+  margin-left: 0;
+}
+.select-area .select-list > li.selected {
+  background-color: #fbe5e7;
+}
+.select-area .select-list > li > label {
+  width: 100%;
+  height: 100%;
+  padding: 0 5px 0 14px;
+  display: table;
+  vertical-align: middle;
+  position: relative;
+  box-sizing: border-box;
+}
+.select-area .select-list > li > label .check {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 10%;
+}
+.select-area .select-list > li > label .txt {
+  display: table-cell;
+  padding-right: 10px;
+  height: 100%;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.result .cassette {
+  margin: 60px 0 0 0;
+}
+.result .entryLink {
+  text-align: right;
+  margin-top: 20px;
+}
+.result .resultTtl1 {
+  background-color: #fbe5e7;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  padding: 12px;
+}
+.result .resultTtl1 span {
+  background: url(/service/simulation/img/icon_ttl.png) no-repeat left center;
+  padding-left: 45px;
+  background-size: 10%;
+}
+.result .resultTxt {
+  margin-bottom: 28px;
+}
+.result .col2Block .leftBlock {
+  float: left;
+  width: 48.5%;
+}
+.result .col2Block .rightBlock {
+  float: right;
+  width: 48.5%;
+}
+.result .ratingBlockWrap {
+  border: solid #bbbbbb 2px;
+  width: 100%;
+}
+.result .ratingBlockWrap .ratingBlock {
+  font-size: 16px;
+  background-color: #fff9f3;
+  border-top: dotted #bbbbbb 1px;
+  padding: 8px 10px;
+}
+.result .ratingBlockWrap .ratingBlock dt {
+  width: 55%;
+  float: left;
+}
+.result .ratingBlockWrap .ratingBlock dd {
+  width: 45%;
+  float: right;
+}
+.result .ratingBlockWrap .rating > li {
+  float: left;
+  width: 20%;
+  background: url(/service/simulation/img/icon_rating.png) no-repeat center center;
+  background-size: contain;
+  text-indent: -99999px;
+  min-height: 20px;
+}
+.result .priceTbl {
+  border: solid #bbbbbb 2px;
+  width: 100%;
+}
+.result .priceTbl th, .result .priceTbl td {
+  font-size: 16px;
+  border: solid #bbbbbb 1px;
+  border-collapse: collapse;
+  padding: 26px 17px 26px 17px;
+  text-align: left;
+}
+.result .priceTbl th {
+  background-color: #eeeeee;
+}
+
+.btnBlock {
+  margin-top: 26px;
+}
+.btnBlock .btnList > li {
+  width: 46%;
+}
+.btnBlock .btnList > li:first-child {
+  float: left;
+}
+.btnBlock .btnList > li:nth-child(2) {
+  float: right;
+}
+.btnBlock .btnList > li a {
+  width: 100%;
+}
+
+.infoBtnBlock {
+  width: 89%;
+  margin: 36px auto;
+}
+
+.arrow_box {
+  position: relative;
+  background: #e30214;
+  border-radius: 5px;
+}
+.arrow_box:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #e30214;
+  border-width: 16px;
+  margin-left: -16px;
+}
+
+.link-area {
+  position: relative;
+}
+.link-area .skip {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.link-area .next {
+  float: right;
+}
+
+a.btn-style1 {
+  border-radius: 5px;
+  padding: 18px 0 18px 0;
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 190px;
+  background-color: #e30214;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+
+a.btn-style2 {
+  border-radius: 5px;
+  padding: 18px 0 18px 0;
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 190px;
+  background-color: #f55966;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+
+a.btn-style1:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+a.btn-style1.btn-next {
+  background-image: url(/service/simulation/img/arrow_next.png);
+  background-position: 95% center;
+}
+a.btn-style1.btn-prev {
+  background-image: url(/service/simulation/img/arrow_prev.png);
+  background-position: 5% center;
+}
+a.btn-style1.btn-large {
+  width: 100%;
+}
+
+a.btn-style2 {
+  border-radius: 5px;
+  padding: 18px 0 18px 0;
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 310px;
+  background-color: #343434;
+  background-repeat: no-repeat;
+}
+a.btn-style2:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+a.btn-style2.btn-next {
+  background-image: url(/service/simulation/img/arrow_next.png);
+  background-position: 95% center;
+}
+a.btn-style2.btn-large {
+  width: 100%;
+}
+
+.btnInfo {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 60px 0 80px 0;
+}
+.btnInfo a.infoLink:hover {
+  text-decoration: none;
+}
+.btnInfo dl {
+  border: solid 1px #bbbbbb;
+  position: relative;
+}
+.btnInfo dl .txt {
+  background: #fff;
+  font-size: 34px;
+  padding: 30px;
+}
+.btnInfo dl .txt_sub {
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #e30214 url(/service/simulation/img/arrow_next.png) no-repeat 98% center;
+}
+.btnInfo dl .img {
+  position: absolute;
+  bottom: 0;
+  right: 7%;
+}
+
+.JsError {
+  padding: 0 0 10px 0;
+  text-align: center;
+  color: #DF0000;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.arrow {
+  background: url(/common/img/arrow8.png) left center no-repeat;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.bgWhite {
+  background-color: #fff;
+}
+
+.noborder {
+  border: none !important;
+}
+
+.spOnly {
+  display: none;
+}
+
+.pcOnly {
+  display: block;
+}
+
+.clearfix:after, .select-area .select-list > li > label:after, .result .col2Block:after, .result .ratingBlockWrap .ratingBlock:after, .result .ratingBlockWrap .rating:after, .btnBlock .btnList:after, .link-area:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 640px) {
+  .relation-area .bnr-area.seminor li {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 1px;
+    width: 78.33%;
+    max-width: 300px;
+  }
+  .relation-area .bnr-area.seminor li a {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-left: 2px solid #e30214;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+  }
+  .relation-area .bnr-area.seminor li a span {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0 45px 0 0;
+    text-align: left;
+    width: 200px;
+  }
+  .relation-area .bnr-area li {
+    width: 78.33%;
+  }
+  .relation-area .bnr-area li:nth-child(2) {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+
+  .ttl-type5 {
+    font-size: 25px;
+    line-height: 1.2;
+    background-size: contain;
+    text-shadow: #fff 1px 1px 3px;
+  }
+
+  .wrap .frame {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contents-area {
+    padding: 0 3% 12% 3%;
+  }
+
+  #main-contents {
+    float: none;
+    width: 100%;
+  }
+
+  .simulation-area {
+    padding: 20px 10px;
+    width: auto;
+  }
+
+  .select-area .select-list > li {
+    width: 48%;
+    margin-left: 0;
+  }
+  .select-area .select-list > li:nth-child(2n) {
+    float: right;
+  }
+  .select-area .select-area-inner1 {
+    width: 100%;
+  }
+  .select-area .select-area-inner1 select {
+    width: 42%;
+  }
+  .select-area .select-area-inner2 {
+    width: 100%;
+    text-align: right;
+  }
+  .select-area .select-label {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .simStep > li {
+    padding: 3% 0 3% 0;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .result .cassette {
+    margin: 20px 0 0 0;
+  }
+  .result .col2Block .leftBlock {
+    float: none;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .result .col2Block .rightBlock {
+    float: none;
+    width: 100%;
+  }
+
+  .btnBlock .btnList > li {
+    width: 100%;
+  }
+  .btnBlock .btnList > li:first-child {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .btnBlock .btnList > li:nth-child(2) {
+    float: none;
+  }
+  .btnBlock .btnList > li a {
+    width: 100%;
+  }
+
+  .btnInfo {
+    padding: 0 3%;
+  }
+  .btnInfo dl .txt {
+    font-size: 22px;
+    padding: 20px;
+  }
+  .btnInfo dl .txt_sub {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .btnInfo dl .img {
+    position: absolute;
+    bottom: auto;
+    top: 5%;
+    right: 4%;
+    width: 39%;
+  }
+
+  .spOnly {
+    display: block;
+  }
+
+  .pcOnly {
+    display: none;
+  }
+
+  a.btn-style1 {
+    width: 40%;
+  }
+  a.btn-style1:hover {
+    opacity: 1;
+  }
+  a.btn-style1.wide {
+    width: 100%;
+  }
+
+  a.btn-style2 {
+    width: 100%;
+  }
+  a.btn-style2:hover {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+#footer
+============================*/
+#footer{
+	border-top:1px solid #eee;
+	position:relative;
+}
+
+#footer .copy{
+	font-size:12px;
+	color:#fff;
+	background:#e30214;
+	padding:15px 0;
+	text-align:center;
+}
+
+
+
+@media screen and (max-width: 640px){
+/*============================
+#footer
+============================*/
+
+#footer .copy{
+	font-size:10px;
+}
+
+#footer .copy{
+	font-size:10px;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+/*============================
+#footer
+============================*/
+.sp_device #footer .copy{
+	font-size:10px;
+}
+
+.sp_device #footer .copy{
+	font-size:10px;
+}

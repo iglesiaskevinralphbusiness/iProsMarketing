@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+#knowhow .case-area .txt-area{
+	width:100%;
+	float:none;
+}
+
+#knowhow .img-area{
+	margin-right:25px;
+	float:left;
+}
+#knowhow .case-area .ttl{
+	font-size:20px;
+}
+#knowhow .case-area .txt-area .txt-box{
+	float:left;
+	width:380px;
+}
+#knowhow .case-area .txt-area .txt{
+	font-size:16px;
+	margin-bottom:40px;
+}
+#knowhow .case-area .txt-area .txt a{
+	color:#1111cc;
+}
+#knowhow .case-list2{
+	margin-bottom:20px;
+}
+
+
+.case-list {
+    margin-bottom: 0;
+}
+.case-area .img-area-ri{
+	float:right;
+	margin-bottom:30px;
+	padding-left:2rem;
+}
+.bnr-area li.pc-only{
+	margin-bottom:70px;
+}
+.ttl-type5{
+	background:url(../img/main_bg_s.jpg) no-repeat right #FFF;
+}
+@media screen and (max-width: 640px){
+.ttl-type5 {
+    font-size: 25px;
+    line-height: 1.2;
+    background-size: contain;
+}
+}
+
+
+@media screen and (max-width: 640px){
+
+
+#knowhow .case-area {
+	padding:0 3%;
+	    display: -webkit-flex;/*--- safari用 ---*/
+    display:flex;
+}
+#knowhow .img-area{
+	float:none;
+	margin:0;
+}
+#knowhow .case-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+#knowhow .img-area img{
+	margin-bottom:27px;
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+#knowhow .case-area .txt-area .txt{
+	margin-bottom:50px;
+}
+#knowhow .case-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+#knowhow .case-list2{
+	margin-bottom: 6.66%;
+}
+.bnr-area li.sp-only{
+	margin:50px 0 80px;
+}
+
+
+}
+
+
+/*============================
+.sp_device
+============================*/
+.sp_device .ttl-type5 {
+    font-size: 25px;
+    line-height: 1.2;
+    background-size: contain;
+}
+
+.sp_device #knowhow .case-area {
+	padding:0 3%;
+	    display: -webkit-flex;/*--- safari用 ---*/
+    display:flex;
+}
+.sp_device #knowhow .img-area{
+	float:none;
+	margin:0;
+}
+.sp_device #knowhow .case-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+.sp_device #knowhow .img-area img{
+	margin-bottom:27px;
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+.sp_device #knowhow .case-area .txt-area .txt{
+	margin-bottom:50px;
+}
+.sp_device #knowhow .case-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+.sp_device #knowhow .case-list2{
+	margin-bottom: 6.66%;
+}
+.sp_device .bnr-area li.sp-only{
+	margin:50px 0 80px;
+}
+
+

@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+#footer
+============================*/
+#footer{
+	border-top:1px solid #eee;
+	position:relative;
+}
+#pagetop{
+	position:absolute;
+	left:50%;
+	top:-70px;
+	margin-left:-20px;
+}
+
+#footer .frame{
+	padding:40px 0 31px;
+}
+#footer #sp_footer{
+	display:none;
+}
+#footer .sitemap{
+	width:600px;
+	float:left;
+}
+#footer h2{
+	color:#666;
+	border-bottom:1px solid #eee;
+	padding-bottom:13px;
+	margin-bottom:20px;
+	font-size:14px;
+	font-weight:normal;
+}
+#footer .footer-nav{
+	font-size:13px;
+}
+#footer .fn-col{
+	float:left;
+	margin-right:16px;
+}
+#footer .fn-col.last{
+	margin-right:0;
+}
+#footer .fnlist li{
+	padding-left:19px;
+	margin-bottom:9px;
+}
+#footer .fnlist li.fn-ttl{
+	background:url(/common/img/arrow1.png) no-repeat left center;
+	font-weight:bold;
+	font-size:14px;
+}
+#footer .fn-ttl{
+}
+#footer .link{
+	width:350px;
+	float:right;
+}
+#footer .footer-logo{
+	text-align:center;
+	margin-bottom:40px;
+}
+#footer .sns{
+}
+#footer .copy{
+	font-size:12px;
+	color:#fff;
+	background:#e30214;
+	padding:15px 0;
+	text-align:center;
+}
+#footer a img:hover{
+	opacity:0.8;
+}
+
+
+@media screen and (max-width: 640px){
+/*============================
+#footer
+============================*/
+#footer .frame{
+	display:none;
+}
+#footer #sp_footer{
+	display:block;
+}
+#sp_footer .f-nav{
+	box-sizing:border-box;
+	font-size:15px;
+	border-top:1px solid #222;
+	background:#333;
+	display:block;
+}
+#sp_footer .f-nav li a{
+	border-bottom:1px solid #222;
+	padding:15px 20px;
+	display:block;
+	color:#fff;
+}
+#sp_footer .f-nav li.last a{
+	border-bottom:none;	
+}
+#sp_footer .f-nav li .link1{
+	background:url(/common/img/gnav_arrow1.png) no-repeat 93.75% center;
+	background-size:8px;
+}
+#sp_footer .f-nav li .link2{
+	background:url(/common/img/gnav_window.png) no-repeat 93.75% center;
+	background-size:13px;
+}
+#footer .copy{
+	font-size:10px;
+}
+}
+
+/*============================
+.sp_device
+============================*/
+
+/*============================
+#footer
+============================*/
+.sp_device #footer .frame{
+	display:none;
+}
+.sp_device #footer #sp_footer{
+	display:block;
+}
+.sp_device #sp_footer .f-nav{
+	box-sizing:border-box;
+	font-size:15px;
+	border-top:1px solid #222;
+	background:#333;
+	display:block;
+}
+.sp_device #sp_footer .f-nav li a{
+	border-bottom:1px solid #222;
+	padding:15px 20px;
+	display:block;
+	color:#fff;
+}
+.sp_device #sp_footer .f-nav li.last a{
+	border-bottom:none;	
+}
+.sp_device #sp_footer .f-nav li .link1{
+	background:url(/common/img/gnav_arrow1.png) no-repeat 93.75% center;
+	background-size:8px;
+}
+.sp_device #sp_footer .f-nav li .link2{
+	background:url(/common/img/gnav_window.png) no-repeat 93.75% center;
+	background-size:13px;
+}
+.sp_device #footer .copy{
+	font-size:10px;
+}

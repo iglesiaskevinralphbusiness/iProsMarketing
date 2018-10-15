@@ -1,0 +1,875 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.main{
+	padding:50px 0 70px;
+}
+.main .frame{
+	position:relative;
+}
+.main .ttl-type1{
+	float:left;
+}
+.main .txt{
+	z-index:2;
+	position:absolute;
+	left:240px;
+	top:-45px;
+	width:435px;
+	font-size:16px;
+}
+.main .bg{
+	position:absolute;
+	top:-94px;
+	right:0;
+	z-index:1;
+}
+.contents-area .frame{
+	padding:60px 0 100px;
+}
+#task{
+	margin-bottom:60px;
+}
+#business{
+	margin-bottom:60px;
+}
+
+.ttl02{
+	font-size:17px;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+
+.mb15 {
+	margin-top: 15px;
+}
+
+/*============================
+#servise
+============================*/
+.membership-area .img .pc-only {
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font-size: 11px;
+	position: absolute;
+	width: 100%;
+	background-color: #e30214;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 1px 1px;
+}
+.box {
+	margin-bottom: 40px;
+}
+
+.box .col-l {
+	width: 626px;
+	float: left;
+}
+
+.box .img-r {
+	width: 323px;
+	float: right;
+}
+.box .img-r img{
+	width: 100%;
+}
+
+.img-area-ri img{
+	width:320px;
+}
+
+.col4-list{
+	margin-bottom: 40px;
+}
+.case-list li:nth-child(n+9){
+	display:none;
+}
+.case-list li:nth-child(4n){
+	margin-right:0;
+}
+.col4-list li:nth-child(4n){
+	margin-right:0;
+}
+.col4-list li{
+	margin-bottom: 30px;
+}
+
+#service .bnr-area{
+	margin:0 auto;
+	text-align:center;
+}
+
+#service .bnr-area .pc-only{
+	padding-bottom: 30px;
+}
+
+#service .txt-area02{
+	margin-bottom:30px;
+}
+#service .txt-area02 .txt {
+	margin-bottom:3px;
+}
+
+#service .service-area .txt-area02 p.small{
+	margin-left:30px;
+	font-size:12px;
+}
+
+
+
+/*============================
+関連コンテンツ
+============================*/
+.relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:30%;
+}
+
+.relation-area .bnr-area.seminor li a {
+	display: block;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.relation-area .bnr-area.seminor li a:hover,
+.relation-area .bnr-area.seminor li a:active {
+	text-decoration: none;
+}
+
+.relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+	width: 170px;
+}
+
+.relation-area .bnr-area.seminor li a img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*============================
+SP用スタイル
+============================*/
+@media screen and (max-width: 640px){
+	.membership-area .desc span {
+		position: absolute;
+		/* bottom: 0; */
+		left: 95px;
+		width: 26%;
+		background-color: #e30214;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		padding: 4px 1px 1px;
+	}
+.main{
+	font-size:16px;
+	padding:0;
+}
+.main >.frame{
+	background: url(../img/main_bg.png) right top no-repeat;
+	background-size: auto 100%;
+}
+.main .frame{
+	padding:0 20px;
+}
+.main .ttl-type1{
+	float:none;
+	margin:0;
+	padding:35px 0;
+}
+.main .txt{
+	position:static;
+	padding:8.92% 0 0;
+	width:100%;
+}
+.main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+.ttl02{
+	margin-bottom:15px;
+}
+/*============================
+#servise
+============================*/
+.box{
+	padding: 0 3%;
+}
+.box .col-r,
+.box .col-l {
+	margin-bottom: 5%;
+	width: 100%;
+}
+#service{
+	margin-bottom:13.33%;
+}
+#service .txt-area02{
+	margin-bottom:15px;
+}
+#service .txt-area02 .txt{
+	margin-bottom:20px;
+}
+#service .service-area .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+#service .service-area .img-area{
+	float:none;
+}
+#task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+.col4-list{
+	margin-bottom: 12%;
+}
+.col4-list li{
+	margin-bottom: 0;
+}
+.sp_device .col4-list li .img-area{
+	vertical-align:middle;
+}
+.col4-list li .inner{
+	padding: 2.5% 4%;
+}
+.col4-list li .inner .txt-area{
+	height:30px;
+}
+.col4-list li .inner .ttl{
+	margin: 2.5% 0;
+}
+.col4-list li .inner.con-hi .ttl{
+	margin:0;
+	line-height:1.3;
+}
+#service .service-area .txt-area02 p.small{
+	margin-left: 0;
+}
+
+/*============================
+関連コンテンツ
+============================*/
+.relation-area .bnr-area li {
+	width:78.33%;
+}
+.relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+}
+
+.relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device .main{
+	font-size:16px;
+	padding:0;
+}
+.sp_device .main >.frame{
+	background: url(../img/main_bg.png) right top no-repeat;
+	background-size: auto 100%;
+}
+.sp_device .main .frame{
+	padding:0 20px;
+}
+.sp_device .main .ttl-type1{
+	float:none;
+	margin:0;
+	padding:35px 0;
+}
+.sp_device .main .txt{
+	position:static;
+	padding:8.92% 0 0;
+	width:100%;
+}
+.sp_device .main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.sp_device .contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+.sp_device .ttl02{
+	margin-bottom:15px;
+}
+/*============================
+#servise
+============================*/
+.sp_device .box{
+	padding: 0 3%;
+}
+.sp_device .box .col-r,
+.sp_device .box .col-l {
+	margin-bottom: 5%;
+	width: 100%;
+}
+.sp_device #service{
+	margin-bottom:13.33%;
+}
+.sp_device #service .txt-area02{
+	margin-bottom:15px;
+}
+.sp_device #service .txt-area02 .txt{
+	margin-bottom:20px;
+}
+.sp_device #service .service-area .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+.sp_device #service .service-area .img-area{
+	float:none;
+}
+.sp_device #task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+.sp_device .col4-list{
+	margin-bottom: 12%;
+}
+.sp_device .col4-list li{
+	margin-bottom: 0;
+}
+.sp_device .col4-list li .img-area{
+	vertical-align:middle;
+}
+.sp_device .col4-list li .inner{
+	padding: 2.5% 4%;
+}
+.sp_device .col4-list li .inner .txt-area{
+	height:30px;
+}
+.sp_device .col4-list li .inner .ttl{
+	margin: 2.5% 0;
+}
+.sp_device .col4-list li .inner.con-hi .ttl{
+	margin:0;
+	line-height:1.3;
+}
+.sp_device #service .service-area .txt-area02 p.small{
+	margin-left: 0;
+}
+
+/*============================
+関連コンテンツ
+============================*/
+.sp_device .relation-area .bnr-area li {
+	width:78.33%;
+}
+.sp_device .relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+
+/* Philippines work scope start */
+/*============================
+seminar
+============================*/
+.mb5{margin-bottom: 5px;}
+.ttl-type5{
+  height: 77px;
+  margin-bottom: 0;
+  padding: 47px 0 39px 0px;
+  border: none;
+  background: url(/seminar/img/main_bg.jpg) no-repeat right #FFF;
+}
+
+.frame.ttl>span{
+  position: relative;
+  max-width: 406px;
+  top: -96px;
+  right: 146px;
+  font-size: 16px;
+  float: right;
+  line-height: 1.5;
+}
+
+.seminar p.txt{
+  font-size: 16px;
+}
+
+.seminar p.txt.f12{
+  font-size: 12px;
+}
+
+.seminar .ttl-type6{
+  font-size: 24px;
+}
+
+.seminar .ttl02{
+  font-size: 20px;
+}
+
+.membership-area{
+  margin: 11px -10px 10px;
+}
+
+.membership-area:before,
+.membership-area:after{
+  display: table;
+  content: "";
+}
+
+.membership-area:after{
+  clear: both;
+}
+
+.membership-area li{
+  float: left;
+  width: 230px;
+  margin: 10px;
+  border: 1px solid #efefef;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.membership-area .img{
+  position: relative;
+}
+
+
+.membership-area .desc {
+	padding: 15px 15px 10px;
+}
+
+.membership-area .desc h4{
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.membership-area .desc h4 a{
+  display: block;
+  text-decoration: none;
+}
+
+.membership-area .desc p{
+  line-height: 1.45;
+}
+
+.latest-dates-area .lnk-more,
+.membership-area li> a{
+  display: block;
+  position: relative;
+  border: 1px solid #999;
+  margin: 0 15px 15px;
+  padding: 12px 5px 9px 28px;
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.latest-dates-area .lnk-more:before,
+.membership-area li>a:before{
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 10px;
+  left: 56px;
+  background: #fff url(../img/membership_arw.gif) no-repeat 0 0;
+  content: "";
+}
+
+.latest-dates-area{
+
+  display: table;
+  width: 100%;
+  padding: 25px 30px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.latest-dates-area,
+.latest-dates-area *{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.latest-dates-area>div>div{
+  display: table-cell;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 1;
+}
+
+.latest-dates-area>div>div:first-child{
+  width: 114px;
+}
+
+.latest-dates-area>div>div:nth-child(2){
+  width: 85px;
+}
+
+.latest-dates-area>div>div .arw{
+  position: relative;
+  padding-left: 13px;
+}
+
+.latest-dates-area>div>div .arw:before{
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 8px;
+  top: 7px;
+  left: 0px;
+  background: #fff url(../img/arw_ico01.gif) no-repeat 0 0;
+  content: "";
+}
+
+.latest-dates-area .lnk-more{
+  width: 480px;
+  margin: 22px auto 5px;
+  padding: 7px 27px 7px 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.latest-dates-area .lnk-more:before{
+  background-image: url(../img/arw_ico02.gif);
+  left: auto;
+  right: 196px;
+}
+
+.seminar.relation-area{
+  margin-bottom: 50px;
+}
+
+.seminar.relation-area .txt{
+  font-size: 16px;
+}
+
+/*============================
+tab-area
+============================*/
+.tab-header{
+  border-bottom: 1px solid #8a8989;
+  text-align: center;
+}
+
+.tab-header li{
+  display: inline-block;
+  width: 383px;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.tab-header li a{
+  display: block;
+  background-color: #8a8989;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  padding: 10px 5px 5px;
+  text-decoration: none;
+}
+
+.tab-header li.active a{
+  background-color: #e30214;
+}
+
+.tab-content{
+  display: none;
+  padding: 48px 0;
+}
+
+/*============================
+.sp_device
+============================*/
+@media screen and (max-width: 640px){
+  .sp-pl10{padding-left: 10px;}
+  .sp-pr10{padding-right: 10px;}
+  .sp-mt15{margin-top: 15px;}
+  .sp-mt10{margin-top: 10px;}
+  .sp-mt40{margin-top: 40px;}
+  .sp-mt30{margin-top: 30px;}
+  .sp-mb10{margin-bottom: 10px;}
+  .sp-mb15{margin-bottom: 15px;}
+  .sp-mb20{margin-bottom: 20px;}
+  .sp_device .frame.ttl>span{
+    display: block;
+    float: none;
+    top: 0;
+    right: 0;
+    padding: 23px 10px;
+    font-size: 14px;
+  }
+  
+  .sp_device .ttl-type5 {
+    margin-right: -10px;
+    padding: 36px 0 54px 0px;
+    background-size: contain;
+    font-size: 25px;
+    line-height: 1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  .sp_device .contents-area .frame{
+    padding: 0;
+  }
+  
+  .sp_device .ttl-type2{
+    font-size: 18px;
+    padding: 4px 0 3px 10px;
+  }
+  
+  .sp_device .seminar .ttl02{
+    font-size: 15px;
+    padding: 0 15px;
+  }
+  
+  .sp_device .seminar p.txt{
+    font-size: 13px;
+  }
+  
+  .sp_device .ttl-type6{
+    margin: 0 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .sp_device .membership-area{
+    margin: 0;
+    border: 1px solid #ddd;
+  }
+
+  .sp_device .membership-area *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .sp_device .membership-area li{
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 10px 9px 9px;
+    border: none;
+  }
+
+  .sp_device .membership-area li:before,
+  .sp_device .membership-area li:after{
+    display: table;
+    content: "";
+  }
+
+  .sp_device .membership-area li:after{
+    clear: both;
+  }
+
+  .sp_device .membership-area li:not(:last-child){
+    border-bottom: 1px solid #ddd;
+  }
+
+  .sp_device .membership-area .img{
+    position: absolute;
+    width: 67px;
+  }
+
+  .sp_device .membership-area .desc h4{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .sp_device .membership-area .desc h4 a{
+		position: relative;
+		padding: 13px 0 0px 81px;
+		font-size: 12px;
+		line-height: 1.65;
+		z-index: 1;
+  }
+  .sp_device .membership-area .desc h4 a:before{
+    display: block;
+    position: absolute;
+    right: 13px;
+		top: 44%;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #aaa;
+    border-right: 2px solid #aaa;
+
+    transform: rotate(45deg) translateY(-50%);
+    content: "";
+  }
+  .sp_device .membership-area .desc{
+    padding: 0;
+    display: table;
+    width: 100%;
+  }
+
+	.sp_device .membership-area .desc span{
+    font-size: 7px;
+  }
+	
+  .sp_device .membership-area li> a,
+  .sp_device .membership-area .desc p{
+    display: none;
+  }
+  
+  .sp_device .latest-dates-area{
+    padding: 14px 17px;
+  }
+  
+  .sp_device .latest-dates-area>div>div{
+    font-size: 13px;
+  }
+  
+  .sp_device .latest-dates-area>div>div:first-child{
+    width: 93px;
+  }
+  
+  .sp_device .latest-dates-area>div>div:last-child{
+    display: block;
+    padding: 0;
+  }
+  
+  .sp_device .latest-dates-area .lnk-more{
+    width: 89%;
+    margin: 20px auto 5px;
+    padding: 7px 27px 6px 10px;
+  }
+  
+  .sp_device .relation-area.seminar .ttl02{
+    font-size: 13px;
+    line-height: 1.2;
+  }
+ 
+  .sp_device .seminar.relation-area{
+    margin-bottom: 35px;
+  }
+  /*============================
+  tab-area
+  ============================*/
+  .sp_device .tab-content{
+    padding: 30px 0 12px;
+  }
+  
+  .sp_device .seminar .tab-content .ttl02{
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  
+  .sp_device .tab-header li{
+    width: 45%;
+    margin: 0 2px;
+  }
+  
+  .sp_device .tab-header li a{
+    font-size: 11px;
+    white-space: nowrap;
+    padding: 5px 0 2px;
+  }
+
+}
+
+/* 追記分 */
+.pc-only-mb40{
+	margin-bottom: 40px;
+}
+
+.pc-only-mt35{
+	margin-top: 35px;
+}
+
+.pc-only-mb30{
+	margin-bottom: 30px;
+}
+
+.pc-only-mb20{
+	margin-bottom: 20px;
+}
+
+.pc-only-mb10{
+	margin-bottom: 10px;
+}
+
+.pc-only-mb05{
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 640px){
+.sp-only-mt30{
+	margin-top: 30px;
+}
+
+.sp-only-mt15{
+	margin-top: 15px;
+}
+
+.sp-only-mt10{
+	margin-top: 10px;
+}
+
+.sp-only-mb15{
+	margin-bottom: 15px;
+}
+
+.sp-only-mb10{
+	margin-bottom: 10px;
+}
+}
+
+/* Philippines work scope end */

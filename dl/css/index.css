@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+共通
+============================*/
+
+.pb60{
+	padding-bottom:60px;
+}
+.main.bg-gray{
+	padding-top: 60px;
+}
+
+.main .list-box{
+	margin-bottom: 10px;
+}
+.main .list-box ul{
+}
+.main .list-box ul li{
+	width: 309px;
+	margin: 0 26px 20px 0;
+	border:1px solid #999;
+	border-radius: 8px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-sizing:border-box;
+	background:#fff url(../img/list_arrow1.jpg) 1rem center no-repeat;
+	line-height: 2.15;
+	float:left;
+	vertical-align:middle;
+}
+.main .list-box ul li:nth-child(3n){
+	margin-right: 0;
+}
+.main .list-box ul li a {
+	display: block;
+	height:100%;
+}
+.main .list-box ul li a:hover {
+	background: #ffffff;
+	border-radius: 8px;
+	text-decoration:none;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+
+}
+.main .list-box ul li p{
+	padding: 5px 20px 5px 45px;
+	height: 80px;
+	box-sizing:border-box;
+	line-height: 1.5;
+	display: table-cell;
+	vertical-align:middle;
+}
+.main .list-box ul li.blank-icon a{
+	padding-right: 20px;
+	background: url(../../common/img/icon_window.png) right center no-repeat;
+}
+
+
+@media screen and (max-width: 640px){
+.main.bg-gray{
+	padding-top: 10%;
+}
+.main .list-box{
+	margin: 0 2% 3%;
+}
+
+.main .list-box ul li{
+	width: 100%;
+	background-size: 14px;
+}
+.main .list-box ul li p{
+	height: 50px;
+	padding-top: 1.8%;
+	padding-bottom: 1.8%;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device .main.bg-gray{
+	padding-top: 10%;
+}
+.sp_device .main .list-box{
+	margin: 0 2% 3%;
+}
+
+.sp_device .main .list-box ul li{
+	width: 100%;
+	background-size: 14px;
+}
+.sp_device .main .list-box ul li p{
+	height: 50px;
+	padding-top: 1.8%;
+	padding-bottom: 1.8%;
+}
+

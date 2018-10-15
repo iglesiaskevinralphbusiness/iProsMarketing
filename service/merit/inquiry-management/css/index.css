@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+.ttl-type5{
+	background:url(/service/img/main_bg.png) no-repeat right #FFF;
+}
+
+.main{
+	padding:50px 0 70px;
+}
+.main .frame{
+	position:relative;
+}
+.main .ttl-type1{
+	float:left;
+}
+.main .txt{
+	z-index:2;
+	position:absolute;
+	left:240px;
+	top:-45px;
+	width:640px;
+	font-size:16px;
+}
+.main .bg{
+	position:absolute;
+	top:-94px;
+	right:0;
+	z-index:1;
+}
+.contents-area .frame{
+	padding:60px 0 100px;
+}
+#task{
+	margin-bottom:60px;
+}
+#business{
+	margin-bottom:60px;
+}
+
+.ttl02{
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+
+
+/*============================
+#servise
+============================*/
+
+.case-list li:nth-child(n+9){
+	display:none;
+}
+.case-list li:nth-child(4n){
+	margin-right:0;
+}
+
+#service .bnr-area{
+	margin:0 auto;
+	text-align:center;
+}
+
+#service .bnr-area .pc-only{
+	margin-bottom: 70px;
+}
+
+#service .service .txt-area{
+	margin-bottom:64px;
+}
+#service .service .txt-area .txt {
+	font-size: 16px;
+	margin-bottom:3px;
+}
+
+#service .service .txt-area ul{
+}
+
+#service .service .txt-area p{
+}
+
+#service .service .txt-area p.small{
+	margin-left:30px;
+	font-size:12px;
+}
+
+
+@media screen and (max-width: 640px){
+.main{
+	font-size:16px;
+	padding:0;
+}
+.main .frame{
+	padding:0 20px;
+}
+.main .ttl-type1{
+	float:none;
+}
+.main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+#service{
+	margin-bottom:13.33%;
+}
+#service .service{
+	padding:0 10px;
+}
+#service .service .txt-area .ttl{
+	font-size:17px;	
+}
+#service .service .txt-area .txt{
+	margin-bottom:20px;
+}
+#service .service .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+#service .service .img-area{
+	float:none;
+}
+#service .service .txt-area{
+	width:100%;
+	float:none;
+}
+#task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device .main{
+	font-size:16px;
+	padding:0;
+}
+.sp_device .main .frame{
+	padding:0 20px;
+}
+.sp_device .main .ttl-type1{
+	float:none;
+}
+.sp_device .main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.sp_device .main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.sp_device .contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+.sp_device #service{
+	margin-bottom:13.33%;
+}
+.sp_device #service .service{
+	padding:0 10px;
+}
+.sp_device #service .service .txt-area .ttl{
+	font-size:17px;	
+}
+.sp_device #service .service .txt-area .txt{
+	margin-bottom:20px;
+}
+.sp_device #service .service .detail-btn{
+	margin-bottom:30px;
+	width:44.64%;
+}
+.sp_device #service .service .img-area{
+	float:none;
+}
+.sp_device #service .service .txt-area{
+	width:100%;
+	float:none;
+}
+.sp_device #task,#business,.relation-area{
+	margin-bottom:13.33%;
+}
+
+
+

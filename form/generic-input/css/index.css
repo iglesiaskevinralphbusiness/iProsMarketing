@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ttl-type8{
+	margin-bottom:25px;
+	font-size:18px;
+	padding:8px 15px;
+	border-left:2px solid #e30214;
+	border-bottom:1px solid #ccc;
+}
+
+
+.main{
+	padding:50px 0 70px;
+}
+.main .frame{
+	position:relative;
+}
+.main .ttl-type1{
+	float:left;
+}
+.main .txt{
+	z-index:2;
+	position:absolute;
+	left:240px;
+	top:-45px;
+	width:640px;
+	font-size:16px;
+}
+.main .bg{
+	position:absolute;
+	top:-200px;
+	right:-240px;
+	z-index:1;
+}
+.contents-area .frame{
+	padding:60px 0 100px;
+}
+#task{
+	margin-bottom:60px;
+}
+#business{
+	margin-bottom:60px;
+}
+
+.case-list li:nth-child(n+9){
+	display:none;
+}
+.case-list li:nth-child(4n){
+	margin-right:0;
+}
+
+.mb60{
+	margin-bottom:60px;
+}
+
+@media screen and (max-width: 640px){
+.main{
+	font-size:16px;
+	padding:0;
+}
+.main .frame{
+	padding:0 20px;
+}
+.main .ttl-type1{
+	float:none;
+}
+.main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+
+.mb60{
+	margin-bottom:60px;
+}
+
+}
+
+
+/*============================
+.sp_device
+============================*/
+.sp_device .main{
+	font-size:16px;
+	padding:0;
+}
+.sp_device .main .frame{
+	padding:0 20px;
+}
+.sp_device .main .ttl-type1{
+	float:none;
+}
+.sp_device .main .txt{
+	position:static;
+	padding:8.92% 0;
+	width:100%;
+}
+.sp_device .main .bg{
+	width:240px;
+	right:-64px;
+	top:-145px;
+	overflow:hidden;
+}
+.sp_device .contents-area .frame{
+	padding:12.5% 10px 13.33%;
+}
+
+.sp_device .mb60{
+	margin-bottom:60px;
+}
+
+

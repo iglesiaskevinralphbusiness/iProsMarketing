@@ -1,0 +1,3 @@
+Options +Includes +ExecCGI
+AddType text/html inc txt html
+AddHandler server-parsed html

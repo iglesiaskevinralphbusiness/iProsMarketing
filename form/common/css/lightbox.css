@@ -1,0 +1,69 @@
+
+.light-box {
+  float: left;
+  cursor: pointer;
+}
+
+.light-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.light-box .thumb-caption {
+  text-align: center;
+}
+
+.btn-close {
+  border: 3px solid #efefef;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.caption {
+  color: #fff;
+  font-size: 26px;
+}
+
+.back-layer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #202c31;
+  z-index: 100;
+}
+
+.show-img {
+  display: none;
+  position: fixed;
+  z-index: 110;
+}
+
+@media screen and (max-width: 640px) {
+.light-box .thumb-caption {
+  display: none;
+}
+.show-img {
+  width: 90%;
+}
+}
+
+/*============================
+.sp_device
+============================*/
+.sp_device .light-box .thumb-caption {
+  display: none;
+}
+.sp_device .show-img {
+  width: 90%;
+}

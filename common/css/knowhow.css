@@ -1,0 +1,1000 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+共通
+============================*/
+#knowhow .knowhow-area{
+	margin-bottom:50px;
+}
+#knowhow .knowhow-area .txt-area{
+	width:100%;
+	float:none;
+}
+.ttl02 {
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+.case-list {
+	margin-bottom: 0;
+}
+.case-list li .txt-area {
+	border: #eee 1px solid;
+	background: none;
+}
+.knowhow-area .img-area02{
+	margin-bottom:30px;
+	text-align:center;
+}
+.detail-btn{
+	width:200px;
+}
+.sp-font-small{
+	font-size:88%;
+}
+
+/*============================
+サイドエリア有
+============================*/
+.wrap{
+	background:#fafafa;
+}
+.wrap .frame{
+	margin:0 auto;
+	width:980px;
+	padding:40px 0 100px;
+}
+#main-contents{
+	float:left;
+	width:730px;
+}
+
+/*============================
+カテゴリリストPC3列
+============================*/
+.case-list{
+	margin-bottom:60px;
+}
+.case-list li:nth-child(3n){
+	margin-right:0;
+}
+.case-list li:nth-child(n+4){
+/* JSで制御 */
+	display:none;
+}
+
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.other-category{
+	margin-bottom:60px;
+}
+.other-category .oc-list li img {
+	display:none;
+}
+.other-category .oc-list li a:hover{
+	text-decoration:underline;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.category-icon:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.category-icon ul{
+	float:right;
+}
+.category-icon ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.category-icon li{
+	float:left;
+	min-width: 6em;
+	margin-right: 5px;
+	border-radius: 3px;
+	padding:0.5em;
+	color:#FFF;
+	text-align:center;
+	background:#e30214;
+}
+.category-icon li a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+}
+.category-icon li a:hover{
+	opacity:0.8;
+}
+
+
+/*============================
+img-list
+============================*/
+/* IE9 */
+.img-list:not(:target) {
+	overflow: hidden\9;
+}
+.img-list .img-item:not(:target) {
+	float: left\9;
+}
+/* IE9 */
+.img-list {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 25px 6px 0;
+	position: relative;
+}
+.img-list:after {
+	background: #fafafa;
+	content: ' ';
+	width: 35px;
+	height: 35px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.img-list .img-item {
+	box-sizing: border-box;
+	text-align: center;
+	width: 50%;
+}
+.img-list .img-item:nth-child(odd) {
+	border-right: 1px solid #bbb;
+}
+.img-list .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #bbb;
+	padding: 24px 39px 44px;
+}
+.img-list .img-item:nth-child(n + 3) {
+	padding: 41px 39px 27px;
+}
+/* IE9 */
+.img-list02:not(:target) {
+	display: table\9;
+}
+.img-list02 .img-item:not(:target) {
+	display: table-cell\9;
+}
+/* IE9 */
+.img-list02 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 6px;
+	position: relative;
+}
+.img-list02 .img-item {
+	box-sizing: border-box;
+	text-align: center;
+	width: 50%;
+	background:#fff;
+}
+.img-list02 .img-item .tl{
+	margin-bottom:30px;
+}
+.img-list02 .img-item .tl span{
+	font-size:12px;
+}
+.img-list02 .img-item img{
+	width: 100%;
+}
+.img-list02 .img-item:nth-child(odd) {
+	border-right: 1px solid #eee;
+}
+.img-list02 .img-item:nth-child(-n + 2) {
+	padding: 24px 39px 44px;
+}
+.img-list02.up-side .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #eee;
+}
+.img-list02 .img-item:nth-child(n + 3) {
+	padding: 41px 39px 27px;
+}
+
+/*============================
+img-area
+============================*/
+#knowhow .img-area{
+	margin-right:25px;
+	float:left;
+}
+#knowhow .knowhow-area .ttl{
+	font-size:20px;
+}
+#knowhow .knowhow-area .txt-area .txt-box{
+	float:left;
+	width:380px;
+}
+#knowhow .knowhow-area .txt-area .txt{
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+/*============================
+所属企業一覧
+============================*/
+/* IE9 */
+.conpany-list:not(:target) {
+	display: table\9;
+	border-collapse: separate\9;
+	border-spacing: 6px 7px\9;
+}
+.conpany-list .business-category:not(:target) {
+	display: table-cell\9;
+}
+/* IE9 */
+.conpany-list {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.conpany-list .business-category {
+	background: #fff;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0 0 16px;
+	padding: 15px;
+}
+.conpany-list .business-category h4 {
+	color: #f00;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.conpany-list .business-category ul {
+	float: left;
+	font-size: 80%;
+	margin-right: 15px;
+}
+.conpany-list .business-category.sp-top {
+	/*width: 33.333%;*/
+}
+.conpany-list .business-category ul:last-of-type {
+	margin: 0;
+}
+.conpany-list .business-category ul li {
+	margin-bottom: 10px;
+}
+.conpany-list .business-category ul li:last-of-type {
+	margin-bottom: 0;
+}
+.conpany-list .business-category ul .exp {
+	margin-right: -15px;
+}
+.notes {
+	padding-left: 1em;
+	text-indent: -1.5em;
+}
+
+/*============================
+関連コンテンツ
+============================*/
+.relation-area .bnr-area li {
+	width:48.5%;
+}
+
+.relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:48.5%;
+}
+
+.relation-area .bnr-area.seminor li a {
+	display: block;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.relation-area .bnr-area.seminor li a:hover,
+.relation-area .bnr-area.seminor li a:active {
+	text-decoration: none;
+}
+
+.relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 45px 0 0;
+	vertical-align: middle;
+	width: 200px;
+}
+
+.relation-area .bnr-area.seminor li a img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*============================
+スライダー
+============================*/
+.slide-area{
+	background:#fff;
+	padding:25px 0;
+	width:590px;
+	margin:0 auto 30px;
+	border:1px solid #efefef;
+}
+.slide-image{
+	width:347px;
+	margin:0 auto 10px;
+}
+.slide-text{
+	width:305px;
+	padding:10px 65px;
+	margin:0 auto;
+	border:1px solid #efefef;
+}
+.slide-text dl dt{
+	color:#e30214;
+	font-size:20px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: 0 0;
+}
+.bx-wrapper .bx-prev {
+	left: -45px;
+	background: url(../img/slide/prev.gif) no-repeat;
+	background-size:100% auto;
+}
+.bx-wrapper .bx-next {
+	right: -45px;
+	background: url(../img/slide/next.gif) no-repeat;
+	background-size:100% auto;
+}
+.bx-wrapper .bx-controls-direction a {
+	top: 25%;
+	margin-top: 0;
+	width: 35px;
+	height: 100px;
+}
+.bx-wrapper .bx-pager {
+	padding-top: 13px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #858585;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+}
+
+/*============================
+SP用スタイル
+============================*/
+
+@media screen and (max-width: 640px){
+/*============================
+共通
+============================*/
+.ttl02 {
+	margin-bottom: 1em;
+}
+.ttl-type5{
+	font-size: 25px;
+	line-height:1.2;
+	background-size:contain;
+}
+.ttl-type5 .small {
+	display:block;
+	font-size: 22px;
+}
+#knowhow .knowhow-area {
+	margin-bottom: 10%;
+	padding:0 3%;
+}
+#knowhow .knowhow-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+#knowhow .knowhow-area .img-list {
+	margin-bottom: 8px;
+}
+#knowhow .img-area{
+	float:none;
+	margin:0;
+}
+#knowhow .img-area img{
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+
+/*============================
+サイドエリア有
+============================*/
+.wrap .frame{
+	width:100%;
+	padding:0;
+}
+#main-contents{
+	float:none;
+	width:100%;
+}
+.contents-area{
+	padding:0 3% 12% 3%;
+}
+
+/*============================
+カテゴリリストSP2列
+============================*/
+.case-list li:nth-child(3n){
+	margin-right:3.33%;
+}
+.case-list li:nth-child(2n){
+	margin-right:0%;
+}
+.case-list li:nth-child(n+4){
+	display:block;
+}
+.case-list li:nth-child(n+9){
+/* JSで制御 */
+	display:none;
+}
+
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.other-category{
+	margin-bottom: 0;
+}
+.other-category .oc-list li img {
+	display:block;
+}
+.other-category h2{
+	display:none;
+}
+.other-category .oc-box {
+	float: none;
+	width: 100%;
+	margin:0;
+}
+.other-category h3{
+	margin-bottom: 20px;
+	border-left: #e30214 2px solid;
+	padding: 8px 0 8px 10px;
+	color:#333;
+	font-size: 20px;
+	font-weight: normal;
+	text-align:left;
+	background: none;
+}
+.other-category .oc-list{
+	margin-bottom: 12%;
+}
+.other-category .oc-list li{
+	display:table;
+	width: 100%;
+}
+.other-category .oc-list li a{
+	display:table-cell;
+	position:relative;
+	border-color: #ddd;
+	padding:0.75em 27px 0.75em 0.75em;
+	vertical-align:middle;
+	font-size: 17px;
+	font-weight: bold;
+	background:none;
+}
+.other-category .oc-list li a:hover{
+	text-decoration: none;
+}
+.other-category .oc-list li:first-child a{
+	border-top: 1px solid #ddd;
+}
+.other-category .oc-list li a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width: 11px;
+	top:0;
+	bottom:0;
+	right:10px;
+	background: url(/common/img/arrow5.png) left center no-repeat;
+	background-size:11px;
+}
+.other-category .oc-list li img{
+	display:inline;
+	width: 24%;
+	max-width:115px;
+	margin-right: 1em;
+	vertical-align:middle;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.category-icon{
+	display:none;
+}
+
+/*============================
+img-list
+============================*/
+.img-list .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #bbb;
+	padding: 12.5px 0 21px;
+}
+.img-list .img-item:nth-child(n + 3) {
+	padding: 19px 0 14px;
+}
+.img-list .img-item:nth-child(odd) {
+	border-right: 1px solid #bbb;
+	padding-right: 11.5px;
+}
+.img-list .img-item:nth-child(even) {
+	padding-left: 11.5px;
+}
+.img-list02 .img-item {
+	width: 100%;
+}
+.img-list02 .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #eee;
+}
+.img-list02 .img-item:nth-child(odd) {
+	border-right: none;
+}
+.img-list02.down-side .img-item:last-of-type {
+	border-bottom: none;
+}
+
+#knowhow .knowhow-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+
+/*============================
+所属企業一覧
+============================*/
+.conpany-list {
+	flex-wrap: wrap;
+}
+.conpany-list .business-category {
+	padding: 5px;
+}
+.conpany-list .business-category.sp-top {
+	-webkit-order: 1;
+	order: 1;
+	width: 48%;
+}
+.conpany-list .business-category.sp-bottom {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-order: 2;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	order: 2;
+	width: 100%;
+}
+.conpany-list .business-category h4 {
+	font-size: 80%;
+}
+.conpany-list .business-category.sp-bottom h4 {
+	width: 100%;
+}
+.conpany-list .business-category.sp-bottom .col2 {
+	width: 47%;
+	margin-right: 3%;
+}
+.conpany-list .business-category.sp-bottom .col3 {
+	width: 30.3%;
+	margin-right: 3%;
+}
+.conpany-list .business-category ul {
+	width: 45%;
+	margin-right: 5%;
+	letter-spacing: -1px;
+}
+.conpany-list .business-category ul li {
+	font-size: 80%;
+}
+.conpany-list .business-category ul .exp {
+	margin-right: 0;
+}
+
+/*============================
+関連コンテンツ
+============================*/
+.relation-area .bnr-area li {
+	width:78.33%;
+}
+.relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+	max-width: 300px;
+}
+
+.relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+
+/*============================
+スライダー
+============================*/
+.bx-wrapper .bx-controls-direction a {
+	top: 25%;
+}
+.slide-area{
+	background:none;
+	padding:25px 0;
+	width:100%;
+	margin:0 auto 4%;
+	border:none;
+}
+.slide-image{
+	width:78.5%;
+	margin:0 auto 10px;
+}
+
+.slide-image img{
+	width:100%;
+}
+	
+.slide-text{
+	width:75%;
+	padding:5% 12.5%;
+	margin:0 auto;
+	border:1px solid #efefef;
+	margin:-1px;
+}
+.bx-wrapper .bx-prev {
+	left: -13.5%;
+	background-size:100% auto;
+}
+.bx-wrapper .bx-next {
+	right: -13.5%;
+	background-size:100% auto;
+}
+.bx-wrapper .bx-controls-direction a {
+	width: 10%;
+	height: 42%;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+/*============================
+共通
+============================*/
+.sp_device .ttl02 {
+	margin-bottom: 1em;
+}
+.sp_device .ttl-type5{
+	font-size: 25px;
+	line-height:1.2;
+	background-size:contain;
+}
+.sp_device .ttl-type5 .small {
+	display:block;
+	font-size: 22px;
+}
+.sp_device #knowhow .knowhow-area {
+	margin-bottom: 10%;
+	padding:0 3%;
+}
+.sp_device #knowhow .knowhow-area .ttl {
+	margin-bottom: 1em;
+	font-size: 17px;
+}
+.sp_device #knowhow .knowhow-area .img-list {
+	margin-bottom: 8px;
+}
+.sp_device #knowhow .img-area{
+	float:none;
+	margin:0;
+}
+.sp_device #knowhow .img-area img{
+	box-sizing:border-box;
+	width: 100%;
+	border-right: 3px solid #e30214;
+}
+
+/*============================
+サイドエリア有
+============================*/
+.sp_device .wrap .frame{
+	width:100%;
+	padding:0;
+}
+.sp_device #main-contents{
+	float:none;
+	width:100%;
+}
+.sp_device .contents-area{
+	padding:0 3% 12% 3%;
+}
+
+/*============================
+カテゴリリストSP2列
+============================*/
+.sp_device .case-list li:nth-child(3n){
+	margin-right:3.33%;
+}
+.sp_device .case-list li:nth-child(2n){
+	margin-right:0%;
+}
+.sp_device .case-list li:nth-child(n+4){
+	display:block;
+}
+.sp_device .case-list li:nth-child(n+9){
+/* JSで制御 */
+	display:none;
+}
+
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.sp_device .other-category{
+	margin-bottom: 0;
+}
+.sp_device .other-category .oc-list li img {
+	display:block;
+}
+.sp_device .other-category h2{
+	display:none;
+}
+.sp_device .other-category .oc-box {
+	float: none;
+	width: 100%;
+	margin:0;
+}
+.sp_device .other-category h3{
+	margin-bottom: 20px;
+	border-left: #e30214 2px solid;
+	padding: 8px 0 8px 10px;
+	color:#333;
+	font-size: 20px;
+	font-weight: normal;
+	text-align:left;
+	background: none;
+}
+.sp_device .other-category .oc-list{
+	margin-bottom: 12%;
+}
+.sp_device .other-category .oc-list li{
+	display:table;
+	width: 100%;
+}
+.sp_device .other-category .oc-list li a{
+	display:table-cell;
+	position:relative;
+	border-color: #ddd;
+	padding:0.75em 27px 0.75em 0.75em;
+	vertical-align:middle;
+	font-size: 17px;
+	font-weight: bold;
+	background:none;
+}
+.sp_device .other-category .oc-list li a:hover{
+	text-decoration: none;
+}
+.sp_device .other-category .oc-list li:first-child a{
+	border-top: 1px solid #ddd;
+}
+.sp_device .other-category .oc-list li a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width: 11px;
+	top:0;
+	bottom:0;
+	right:10px;
+	background: url(/common/img/arrow5.png) left center no-repeat;
+	background-size:11px;
+}
+.sp_device .other-category .oc-list li img{
+	display:inline;
+	width: 24%;
+	max-width:115px;
+	margin-right: 1em;
+	vertical-align:middle;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.sp_device .category-icon{
+	display:none;
+}
+
+/*============================
+img-list
+============================*/
+.sp_device .img-list .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #bbb;
+	padding: 12.5px 0 21px;
+}
+.sp_device .img-list .img-item:nth-child(n + 3) {
+	padding: 19px 0 14px;
+}
+.sp_device .img-list .img-item:nth-child(odd) {
+	border-right: 1px solid #bbb;
+	padding-right: 11.5px;
+}
+.sp_device .img-list .img-item:nth-child(even) {
+	padding-left: 11.5px;
+}
+.sp_device .img-list02 .img-item {
+	width: 100%;
+}
+.sp_device .img-list02 .img-item:nth-child(-n + 2) {
+	border-bottom: 1px solid #eee;
+}
+.sp_device .img-list02 .img-item:nth-child(odd) {
+	border-right: none;
+}
+.sp_device .img-list02.down-side .img-item:last-of-type {
+	border-bottom: none;
+}
+
+.sp_device #knowhow .knowhow-area .txt-area .txt-box {
+	float: none;
+	width: 100%;
+	margin-top: 6%;
+}
+
+/*============================
+所属企業一覧
+============================*/
+.sp_device .conpany-list {
+	flex-wrap: wrap;
+}
+.sp_device .conpany-list .business-category {
+	padding: 5px;
+}
+.sp_device .conpany-list .business-category.sp-top {
+	-webkit-order: 1;
+	order: 1;
+	width: 48%;
+}
+.sp_device .conpany-list .business-category.sp-bottom {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-order: 2;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	order: 2;
+	width: 100%;
+}
+.sp_device .conpany-list .business-category h4 {
+	font-size: 80%;
+}
+.sp_device .conpany-list .business-category.sp-bottom h4 {
+	width: 100%;
+}
+.sp_device .conpany-list .business-category.sp-bottom .col2 {
+	width: 47%;
+	margin-right: 3%;
+}
+.sp_device .conpany-list .business-category.sp-bottom .col3 {
+	width: 30.3%;
+	margin-right: 3%;
+}
+.sp_device .conpany-list .business-category ul {
+	width: 45%;
+	margin-right: 5%;
+	letter-spacing: -1px;
+}
+.sp_device .conpany-list .business-category ul li {
+	font-size: 80%;
+}
+.sp_device .conpany-list .business-category ul .exp {
+	margin-right: 0;
+}
+
+/*============================
+関連コンテンツ
+============================*/
+.sp_device .relation-area .bnr-area li {
+	width:78.33%;
+}
+.sp_device .relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+	max-width: 300px;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+
+/*============================
+スライダー
+============================*/
+.sp_device .bx-wrapper .bx-controls-direction a {
+	top: 25%;
+}
+.sp_device .slide-area{
+	background:none;
+	padding:25px 0;
+	width:100%;
+	margin:0 auto 4%;
+	border:none;
+}
+.sp_device .slide-image{
+	width:78.5%;
+	margin:0 auto 10px;
+}
+
+.sp_device .slide-image img{
+	width:100%;
+}
+	
+.sp_device .slide-text{
+	width:75%;
+	padding:5% 12.5%;
+	margin:0 auto;
+	border:1px solid #efefef;
+	margin:-1px;
+}
+.sp_device .bx-wrapper .bx-prev {
+	left: -13.5%;
+	background-size:100% auto;
+}
+.sp_device .bx-wrapper .bx-next {
+	right: -13.5%;
+	background-size:100% auto;
+}
+.sp_device .bx-wrapper .bx-controls-direction a {
+	width: 10%;
+	height: 42%;
+}

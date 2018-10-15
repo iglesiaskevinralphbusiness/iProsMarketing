@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+サイドエリア有
+============================*/
+.wrap{
+	background:#fafafa;
+}
+.wrap .frame{
+	margin:0 auto;
+	width:980px;
+	padding:40px 0 100px;
+}
+#main-contents{
+	float:left;
+	width:730px;
+}
+
+/*============================
+カテゴリリストPC3列
+============================*/
+.case-list{
+	margin-bottom:60px;
+}
+.case-list li:nth-child(3n){
+	margin-right:0;
+}
+.case-list li:nth-child(n+4){
+/* JSで制御 */
+	display:none;
+}
+
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.other-category{
+	margin-bottom:60px;
+}
+.other-category .oc-list li img {
+	display:none;
+}
+.other-category .oc-list li a:hover{
+	text-decoration:underline;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.category-icon:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.category-icon ul{
+	float:right;
+}
+.category-icon ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.category-icon li{
+	float:left;
+	min-width: 6em;
+	margin-right: 5px;
+	border-radius: 3px;
+	padding:0.5em;
+	color:#FFF;
+	text-align:center;
+	background:#e30214;
+}
+.category-icon li a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+}
+.category-icon li a:hover{
+	opacity:0.8;
+}
+
+
+
+
+@media screen and (max-width: 640px){
+/*============================
+サイドエリア有
+============================*/
+.wrap .frame{
+	width:100%;
+	padding:0;
+}
+#main-contents{
+	float:none;
+	width:100%;
+}
+.contents-area{
+	padding:0 3% 12% 3%;
+}
+	
+/*============================
+カテゴリリストSP2列
+============================*/
+.case-list li:nth-child(3n){
+	margin-right:3.33%;
+}
+.case-list li:nth-child(2n){
+	margin-right:0%;
+}
+.case-list li:nth-child(n+4){
+	display:block;
+}
+.case-list li:nth-child(n+9){
+/* JSで制御 */
+	display:none;
+}
+	
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.other-category{
+	margin-bottom: 0;
+}
+.other-category .oc-list li img {
+	display:block;
+}
+.other-category h2{
+	display:none;
+}
+.other-category .oc-box {
+	float: none;
+	width: 100%;
+	margin:0;
+}
+.other-category h3{
+	margin-bottom: 20px;
+	border-left: #e30214 2px solid;
+	padding: 8px 0 8px 10px;
+	color:#333;
+	font-size: 20px;
+	font-weight: normal;
+	text-align:left;
+	background: none;
+}
+.other-category .oc-list{
+	margin-bottom: 12%;
+}
+.other-category .oc-list li{
+	display:table;
+	width: 100%;
+}
+.other-category .oc-list li a{
+	display:table-cell;
+	position:relative;
+	border-color: #ddd;
+	padding:0.75em 27px 0.75em 0.75em;
+	vertical-align:middle;
+	font-size: 17px;
+	font-weight: bold;
+	background:none;
+}
+.other-category .oc-list li a:hover{
+	text-decoration: none;
+}
+.other-category .oc-list li:first-child a{
+	border-top: 1px solid #ddd;
+}
+.other-category .oc-list li a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width: 11px;
+	top:0;
+	bottom:0;
+	right:10px;
+	background: url(/common/img/arrow5.png) left center no-repeat;
+	background-size:11px;
+}
+.other-category .oc-list li img{
+	display:inline;
+	width: 24%;
+	max-width:115px;
+	margin-right: 1em;
+	vertical-align:middle;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.category-icon{
+	display:none;
+}
+}
+
+
+@media screen and (max-width: 640px){
+.relation-area .bnr-area li {
+	width:78.33%;
+}
+.relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+	max-width: 300px;
+}
+
+.relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+
+}
+
+
+/*============================
+.sp_device
+============================*/
+
+/*============================
+サイドエリア有
+============================*/
+.sp_device .wrap .frame{
+	width:100%;
+	padding:0;
+}
+.sp_device #main-contents{
+	float:none;
+	width:100%;
+}
+.sp_device .contents-area{
+	padding:0 3% 12% 3%;
+}
+	
+/*============================
+カテゴリリストSP2列
+============================*/
+.sp_device .case-list li:nth-child(3n){
+	margin-right:3.33%;
+}
+.sp_device .case-list li:nth-child(2n){
+	margin-right:0%;
+}
+.sp_device .case-list li:nth-child(n+4){
+	display:block;
+}
+.sp_device .case-list li:nth-child(n+9){
+/* JSで制御 */
+	display:none;
+}
+	
+/*============================
+他のカテゴリから事例を探す
+============================*/
+.sp_device .other-category{
+	margin-bottom: 0;
+}
+.sp_device .other-category .oc-list li img {
+	display:block;
+}
+.sp_device .other-category h2{
+	display:none;
+}
+.sp_device .other-category .oc-box {
+	float: none;
+	width: 100%;
+	margin:0;
+}
+.sp_device .other-category h3{
+	margin-bottom: 20px;
+	border-left: #e30214 2px solid;
+	padding: 8px 0 8px 10px;
+	color:#333;
+	font-size: 20px;
+	font-weight: normal;
+	text-align:left;
+	background: none;
+}
+.sp_device .other-category .oc-list{
+	margin-bottom: 12%;
+}
+.sp_device .other-category .oc-list li{
+	display:table;
+	width: 100%;
+}
+.sp_device .other-category .oc-list li a{
+	display:table-cell;
+	position:relative;
+	border-color: #ddd;
+	padding:0.75em 27px 0.75em 0.75em;
+	vertical-align:middle;
+	font-size: 17px;
+	font-weight: bold;
+	background:none;
+}
+.sp_device .other-category .oc-list li a:hover{
+	text-decoration: none;
+}
+.sp_device .other-category .oc-list li:first-child a{
+	border-top: 1px solid #ddd;
+}
+.sp_device .other-category .oc-list li a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width: 11px;
+	top:0;
+	bottom:0;
+	right:10px;
+	background: url(/common/img/arrow5.png) left center no-repeat;
+	background-size:11px;
+}
+.sp_device .other-category .oc-list li img{
+	display:inline;
+	width: 24%;
+	max-width:115px;
+	margin-right: 1em;
+	vertical-align:middle;
+}
+
+/*============================
+カテゴリアイコン
+============================*/
+.sp_device .category-icon{
+	display:none;
+}
+
+.sp_device .relation-area .bnr-area li {
+	width:78.33%;
+}
+.sp_device .relation-area .bnr-area.seminor li {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 1px;
+	width:78.33%;
+	max-width: 300px;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a {
+	align-items: center;
+	display: flex;
+	border-left: 2px solid #e30214;
+	box-sizing: border-box;
+	padding: 8px;
+	width: 100%;
+}
+
+.sp_device .relation-area .bnr-area.seminor li a span {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 45px 0 0;
+	text-align: left;
+	width: 200px;
+}
+

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+
+<title>販売促進シミュレーション | BtoBマーケティング・ 海外進出支援のイプロス</title>
+<meta name="description" content="多彩なイプロスの販売促進プランから、貴社に最適なプランを簡単な３つのチェック項目で診断！予算に合わせたイプロス活用をシミュレーションできます。">
+<meta name="keywords" content="販促,販売促進,広告費,費用確認,シミュレーション,掲載料,プロモーション費用,広告プラン,広告メニュー,イプロス料金">
+
+<!--#include virtual="../../inc/common_include.inc"-->
+
+<!--ページ固有のJS、CSS-->
+<link href="/common/css/service.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+
+<!--/ページ固有のJS、CSS-->
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/simulation.js"></script>
+</head>
+
+<body id="top">
+
+<!--#include virtual="../../inc/header.inc"-->
+
+<div id="contents">
+
+  <div class="bread-list">
+    <div class="frame clearfix">
+      <ul>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/service/">サービス</a></li>
+        <li class="sp-font-small">販売促進シミュレーション</li>
+      </ul>
+    </div>
+  </div>
+  <!--/.bread-list-->
+
+  <div class="wrap">
+    <div class="frame clearfix">
+      <div id="main-contents">
+        <h1 class="ttl-type5">販促シミュレーション</h1>
+
+        <div class="contents-area bg-gray">
+          <div id="simulation">
+            <h2 class="ttl-type2">販売促進シミュレーション</h2>
+            <p class="ttl02">月間約160万人が利用する、国内最大級<sub>※1</sub>の技術データベースサイト</p>
+            <div id="simSelect" class="simulation-area">
+              <ul id="simStep" class="simStep">
+                <li id="step1" class="first current">1．目的</li>
+                <li id="step2" class="second">2．期間</li>
+                <li id="step3" class="third">3．予算</li>
+              </ul>
+              
+              <!-- #simflow1 -->
+              <div id="simflow1" class="simflow">
+                <div class="select-area">
+                  <p class="ttl03">販売促進の目的をお選びください。 ※複数選択可</p>
+                  <ul class="select-list clearfix">
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1a"></span><span class="txt">引き合い獲得</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1b"></span><span class="txt">製品・サービスの告知</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1c"></span><span class="txt">企業の認知拡大</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1j"></span><span class="txt">カタログ配布</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1d"></span><span class="txt">市場調査</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1e"></span><span class="txt">キャンペーン告知</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1h"></span><span class="txt">サンプル・デモ配布</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1f"></span><span class="txt">展示会・セミナー集客</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1g"></span><span class="txt">自社ホームページ集客</span></label></li>
+                    <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="#1i"></span><span class="txt">代理店募集</span></label></li>
+                  </ul>
+                </div>
+                
+                <p class="JsError">選択されていません。</p>
+                <div class="link-area">
+                  <a href="#simulation" id="jsSimulationSkipBtn" class="arrow skip">導入をスキップする</a>
+                  <a href="#simulation" class="btn-style1 btn-next next" id="btn-next1">次へ</a>
+                </div>
+              </div><!-- //#simflow1 -->
+              
+              <!-- #simflow2 -->
+              <div id="simflow2" class="simflow">
+                <div class="select-area">
+                  <p class="ttl03">販売促進の実施期間ををお選びください。</p>
+                  <ul class="select-list clearfix">
+                    <li><label><span class="check"><input type="radio" name="q2Cheack" value="#2a"></span><span class="txt">短期的にPRしたい</span></label></li>
+                    <li><label><span class="check"><input type="radio" name="q2Cheack" value="#2c"></span><span class="txt">定期的にPRしたい</span></label></li>
+                    <li><label><span class="check"><input type="radio" name="q2Cheack" value="#2b"></span><span class="txt">長期的にPRしたい</span></label></li>
+                  </ul>
+                </div>
+                
+                <p class="JsError">選択されていません。</p>
+                
+                <div class="link-area">
+                  <a href="#simulation" id="jsSimulationBacktoStep1" class="arrow skip">販促目的の選択に戻る</a>
+                  <a href="#simulation" class="btn-style1 btn-next next" id="btn-next2">次へ</a>
+                </div>
+              </div><!-- //#simflow2 -->
+              
+              <!-- #simflow3-1 -->
+              <div id="simflow3-1" class="simflow">
+                <div class="select-area">
+                  <p class="ttl03">販売促進のご予算をお選びください。</p>
+                  <div class="select-area-inner1">
+                    <select id="_view_num_3_1_selection" name="q3-1Cheack">
+                      <option selected="selected" value="0">選択して下さい</option>
+                      <option value="3a">15万円</option>
+                      <option value="3b">30万円</option>
+                      <option value="3c">50万円</option>
+                      <option value="3d">100万円</option>
+                      <option value="3e">上限なし</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <p class="JsError">選択されていません。</p>
+                
+                <div class="link-area">
+                  <a href="#simulation" class="arrow skip jsSimulationBacktoStep2">販促目的の選択に戻る</a>
+                  <a href="#simulation" class="btn-style1 btn-next next" id="btn-next3_1">診断結果へ</a>
+                </div>
+              </div><!-- //#simflow3-1 -->
+              
+              <!-- #simflow3-2 -->
+              <div id="simflow3-2" class="simflow">
+                <div class="select-area">
+                  <p class="ttl03">販売促進のご予算をお選びください。</p>
+                  <div class="select-area-inner1">
+                    <select id="_view_num_3_2_selectionMin" name="q3-2CheackMin">
+                      <option selected="selected" value="0">選択して下さい</option>
+                      <option value="30">30万円</option>
+                      <option value="50">50万円</option>
+                      <option value="100">100万円</option>
+                      <option value="150">150万円</option>
+                      <option value="200">200万円</option>
+                      <option value="250">250万円</option>
+                      <option value="300">300万円</option>
+                      <option value="500">500万円</option>
+                    </select>
+                    〜
+                    <select id="_view_num_3_2_selectionMax" name="q3-2CheackMax">
+                      <option class="jsSimulationDisabled" selected="selected" value="0">選択して下さい</option>
+                      <option class="jsSimulationDisabled" value="50">50万円</option>
+                      <option value="100">100万円</option>
+                      <option value="150">150万円</option>
+                      <option value="200">200万円</option>
+                      <option value="250">250万円</option>
+                      <option value="300">300万円</option>
+                      <option value="500">500万円</option>
+                      <option value="1000">上限なし</option>
+                    </select>
+                    <span class="select-label">／年間</span>
+                  </div>
+                </div>
+                <p class="JsError">選択されていません。</p>
+                <div class="link-area">
+                  <a href="#" class="arrow skip jsSimulationBacktoStep2">販促目的の選択に戻る</a>
+                  <a href="#" class="btn-style1 btn-next next" id="btn-next3_2">診断結果へ</a>
+                </div>
+              </div><!-- //#simflow3-2 -->
+              
+              
+              
+            </div>
+            
+            <!-- #simResults -->
+            <div id="simResults" class="result">
+              <div class="simulation-area bgWhite">
+
+               
+               
+                <div id="simResultsDetail" class="simflow">
+                  <p class="resultTtl1"><span>貴社に最適な<br class="spOnly">販促・広告プランは</span></p>
+                  
+                  <div class="cassette nodata" id="jsSimulation_none">
+                    <p class="mb20">
+                     ご要望の条件に該当するプランは“0”件でした。<br>
+                      条件を変更して再度お探し下さい。
+                    </p>
+                    <p class="mb20">どうしても見つからない場合は、イプロスに直接ご相談下さい。集客・販促のプロが、貴社にぴったりのプランをご提案致します。</p>
+                    <a href="http://marketing-info.ipros.jp/form/simulation-input/?&amp;sim=&amp;cok=20140710_154150&amp;rf=prdoc" id="js_ZeroAllBtn" class="btn-style1 wide btn-next">イプロスに相談する</a>
+                  </div>
+                  
+                  
+                  <div class="cassette" id="jsSimulation_noCondition">
+                    <p class="mb20">
+                      下記の診断条件を選択してください。<br>
+                      貴社に最適な広告プランを診断いたします。
+                    </p>
+                  </div>
+                  
+                  <!-- 販促支援会員 -->
+                  <div class="cassette" id="jsSimulation_gl">
+                    <h3 class="ttl-type6">販促支援会員</h3>
+                    <p class="resultTxt">
+                      イプロスの販促支援会員はリピート率90％を誇るイプロスの一番人気プラン。<br>
+                      BtoBの営業活動で最も重要な『見込み客の集客・育成』を分厚くカバー。貴社の新規開拓、売上アップを確実に、また効率的に実現できます。
+                    </p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th>契約期間</th>
+                            <td>1年間～</td>
+                          </tr>
+                          <tr>
+                            <th>価格</th>
+                            <td>月額8万円～</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/hansokushien/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //販促支援会員 -->
+                  
+                  
+                  <!-- タイアップページ -->
+                  <div class="cassette" id="jsSimulation_tu">
+                    <h3 class="ttl-type6">タイアップページ</h3>
+                    <p class="resultTxt">
+                      取材を行い、製品・サービスを「記事」風にご紹介する広告です。企業・製品ブランディングを行いたい企業様や、幅広いエンジニアに対しPRを行いたい企業様におすすめの広告です。
+                    </p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th colspan="2">契約期間</th>
+                            <td>4週間</td>
+                          </tr>
+                          <tr>
+                            <th rowspan="2" class="tc">価<br>格</th>
+                            <th>販促支援会員</th>
+                            <td>85万円</td>
+                          </tr>
+                          <tr>
+                            <th>無料出展会員</th>
+                            <td>100万円</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/tieup/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //タイアップページ -->
+                  
+                  
+                  <!-- スポット広告 -->
+                  <div class="cassette" id="jsSimulation_sp">
+                    <h3 class="ttl-type6">スポット広告</h3>
+                    <p class="resultTxt">画像1点と文章によるPRが行える広告です。単発で製品・サービスをPRされたい企業様におすすめです。</p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th colspan="2">契約期間</th>
+                            <td>4週間</td>
+                          </tr>
+                          <tr>
+                            <th rowspan="2" class="tc">価<br>格</th>
+                            <th>販促支援会員</th>
+                            <td>12万円</td>
+                          </tr>
+                          <tr>
+                            <th>無料出展会員</th>
+                            <td>15万円</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/spot/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //スポット広告 -->
+                  
+                  <!-- デモグラフィックターゲティングメール -->
+                  <div class="cassette" id="jsSimulation_dt">
+                    <h3 class="ttl-type6">【エントリー】デモグラフィックターゲティングメール</h3>
+                    <p class="resultTxt">イプロス会員のうち行動履歴に応じて送信対象を選定しメール配信を行います。ターゲットを絞ってPRを行いたい企業様におすすめのプランです。</p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th>契約期間</th>
+                            <td>1回</td>
+                          </tr>
+                          <tr>
+                            <th>価格</th>
+                            <td>20万円～</td>
+                          </tr>
+                          
+                        </table>
+                        <div class="entryLink">
+                          <a href="" class="arrow">エントリーランク</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/demographics/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //デモグラフィックターゲティングメール -->
+                  
+                  
+                  
+                  
+                  
+                  <!-- 行動ターゲティングメール -->
+                  <div class="cassette" id="jsSimulation_bt">
+                    <h3 class="ttl-type6">【エントリー】行動ターゲティングメール</h3>
+                     <p class="resultTxt">
+                      イプロス会員のうち行動履歴に応じて送信対象を選定しメール配信を行います。ターゲットを絞ってPRを行いたい企業様におすすめのプランです。
+                    </p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th>契約期間</th>
+                            <td>1回</td>
+                          </tr>
+                          <tr>
+                            <th>価格</th>
+                            <td>20万円～</td>
+                          </tr>
+                        </table>
+                        <div class="entryLink">
+                          <a href="" class="arrow">エントリーランク</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/text-mail/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //行動ターゲティングメール -->
+                  
+                  <!-- 画像バナー -->
+                  <div class="cassette" id="jsSimulation_vn">
+                    <h3 class="ttl-type6">【エントリー】画像バナー</h3>
+                    <p class="resultTxt">
+                      「イプロス 製造業」トップページをはじめとする全ページの右上レクタングル部分にバナーを掲載します。多数のアクセスが見込めるエリアにバナーを掲載できるため、幅広いエンジニアに向け訴求をしたい企業様におすすめです。
+                    </p>
+                    <div class="col2Block">
+                      <div class="leftBlock">
+                        <div class="ratingBlockWrap">
+                          <dl class="ratingBlock noborder">
+                            <dt>攻め（PUSH）</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>守り（PULL）</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>ターゲティング</dt>
+                            <dd>&nbsp;
+                              
+                            </dd>
+                          </dl>
+                          <dl class="ratingBlock">
+                            <dt>分析</dt>
+                            <dd>
+                              <ul class="rating">
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                                <li>★</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+
+                      <div class="rightBlock">
+                        <table cellpadding="0" cellspacing="0" border="0" class="priceTbl">
+                          <tr>
+                            <th>契約期間</th>
+                            <td>4週間</td>
+                          </tr>
+                          <tr>
+                            <th>価格</th>
+                            <td>50万円</td>
+                          </tr>
+                        </table>
+                        <div class="entryLink">
+                          <a href="" class="arrow">エントリーランク</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+
+                    <div class="btnBlock">
+                      <ul class="btnList">
+                        <li>
+                          <a href="/service/banner/" class="btn-style2 btn-next">プラン詳細を見る</a>
+                        </li>
+                        <li>
+                          <a href="http://marketing-info.ipros.jp/form/simulation-input/?" class="js_targetPlanLink btn-style2 btn-next">プランをお問い合わせする</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!-- //画像バナー -->
+                </div>
+
+
+              </div><!-- //#simResults -->
+              
+              <div class="infoBtnBlock" id="jsSimulation_contact">
+                <div class="arrow_box">
+                  <a href="http://marketing-info.ipros.jp/form/simulation-input/?&amp;plan=&amp;sim=&amp;cok=20140710_154150&amp;rf=prdoc" id="js_contactAllBtn" class="btn-style1 btn-next btn-large">診断結果のプランを<br class="spOnly">まとめてお問い合わせする</a>
+                </div>
+              </div>
+              
+              
+              <div id="jsSimulation_clear" class="mb40 mt40">
+                <h3 class="ttl-type6">診断条件を再度選択する</h3>
+                <div class="simulation-area noborder">
+                  <div class="clearfix">
+                    <a href="" id="reset" class="btn-style2 btn-next fr">診断条件をクリアする</a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="mt30">
+                <h3 class="ttl-type6">目的　※複数選択可</h3>
+                <div class="simulation-area noborder">
+                  <div class="select-area">
+                    <ul id="jsSearchCoditionPurpose" class="select-list clearfix">
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1a"></span><span class="txt">引き合い獲得</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1b"></span><span class="txt">製品・サービスの告知</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1c"></span><span class="txt">企業の認知拡大</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1j"></span><span class="txt">カタログ配布</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1d"></span><span class="txt">市場調査</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1e"></span><span class="txt">キャンペーン告知</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1h"></span><span class="txt">サンプル・デモ配布</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1f"></span><span class="txt">展示会・セミナー集客</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1g"></span><span class="txt">自社ホームページ集客</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="1i"></span><span class="txt">代理店募集</span></label></li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+              
+              
+              <div>
+                <h3 class="ttl-type6">期間</h3>
+                <div class="simulation-area noborder">
+                  <div class="select-area">
+                    <ul id="jsSearchCoditionTerm" class="select-list clearfix">
+                      <li><label><span class="check"><input type="radio" name="q2Cheack" value="2a"></span><span class="txt">短期的にPRしたい</span></label></li>
+                      <li><label><span class="check"><input type="radio" name="q2Cheack" value="2c"></span><span class="txt">定期的にPRしたい</span></label></li>
+                      <li><label><span class="check"><input type="radio" name="q2Cheack" value="2b"></span><span class="txt">長期的にPRしたい</span></label></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div id="jsSimulationTypeA">
+                <h3 class="ttl-type6">予算</h3>
+                <div class="simulation-area noborder">
+                  <div class="select-area">
+                    <div class="select-area-inner1 tc">
+                      <select id="jsSimulationTypeASelect" name="q3-1Cheack">
+                        <option selected="selected" value="0">選択して下さい</option>
+                        <option value="3a">15万円</option>
+                        <option value="3b">30万円</option>
+                        <option value="3c">50万円</option>
+                        <option value="3d">100万円</option>
+                        <option value="3e">上限なし</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div id="jsSimulationTypeB">
+                <h3 class="ttl-type6">予算</h3>
+                <div class="simulation-area noborder">
+                  <div class="select-area">
+                    <div class="select-area-inner1 tc">
+                      <select id="jsSimulationTypeBMin" name="q3-2CheackMin">
+                        <option selected="selected" value="0">選択して下さい</option>
+                        <option value="30">30万円</option>
+                        <option value="50">50万円</option>
+                        <option value="100">100万円</option>
+                        <option value="150">150万円</option>
+                        <option value="200">200万円</option>
+                        <option value="250">250万円</option>
+                        <option value="300">300万円</option>
+                        <option value="500">500万円</option>
+                      </select>
+                      〜
+                      <select id="jsSimulationTypeBMax" name="q3-2CheackMax">
+                        <option class="jsSimulationDisabled" selected="selected" value="0">選択して下さい</option>
+                        <option class="jsSimulationDisabled" value="50">50万円</option>
+                        <option value="100">100万円</option>
+                        <option value="150">150万円</option>
+                        <option value="200">200万円</option>
+                        <option value="250">250万円</option>
+                        <option value="300">300万円</option>
+                        <option value="500">500万円</option>
+                        <option value="1000">上限なし</option>
+                      </select>
+                      <span class="select-label">／年間</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div>
+                <h3 class="ttl-type6">そのほかご要望</h3>
+                <div class="simulation-area noborder">
+                  <div class="select-area">
+                    <ul id="js_otherSelections" class="select-list clearfix">
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="4a"></span><span class="txt">業種・職種を絞りたい</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="4b"></span><span class="txt">地域を絞りたい</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="4c"></span><span class="txt">広告に動画を載せたい</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="4d"></span><span class="txt">特集と合わせて掲載したい</span></label></li>
+                      <li><label><span class="check"><input type="checkbox" name="q1Cheack" value="4e"></span><span class="txt">効果測定をしたい</span></label></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="btnBlock">
+                    <ul class="btnList">
+                      <li>
+                        <a href="#simulation" id="searchPlan" href="#" class="btn-style1 btn-next">この条件で結果を確認</a>
+                      </li>
+                      <li>
+                        <a href="http://marketing-info.ipros.jp/form/simulation-input?plan=&amp;sim=&amp;btn=req&amp;cok=20140710_154150&amp;rf=prdoc" id="js_soudanBtn" class="btn-style1 btn-next">
+                          この条件で相談する
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="#simulation" id="initBtn" href="#" class="btn-style2 btn-large btn-next mt20">販売促進シミュレーショントップに戻る</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/#simulation-->
+          
+ 								<div class="mt30 mb30">
+									<a href="http://marketing-info.ipros.jp/form/generic-input" target="_blank">
+										<ul class="bnr-area">
+											<li class="pc-only"><img src="../img/common/bnr_img02_pc.jpg" alt="「イプロスへのお問い合わせ」イプロスで効率的に引き合いを獲得できる「販促支援会員」についてのお問い合わせはこちら"></li>
+											<li class="sp-only"><img src="../img/common/bnr_img02_sp.jpg" alt="「イプロスへのお問い合わせ」イプロスで効率的に引き合いを獲得できる「販促支援会員」についてのお問い合わせはこちら"></li>
+										</ul>
+									</a>
+								</div>
+          
+
+          <div class="relation-area">
+            <h2 class="ttl-type2">関連資料／セミナー</h2>
+                        <ul class="bnr-area clearfix">
+                            <li class="seminor">
+                              <a href="http://marketing-info.ipros.jp/form/marketing_howto-input" target="_blank">
+                               <img src="/common/img/seminar/bnr_web_hansoku.jpg" alt="Web販促のキホン「Webマーケティング　まず押さえるべき5つの基本ノウハウ」ダウンロードお申し込み">
+                              </a>
+                            </li>
+                            <li class="seminor last">
+                              <a href="http://marketing-info.ipros.jp/form/web-marketing-seminar_summary-input" target="_blank">
+                                <img src="/common/img/seminar/bnr_shinkikakutoku.jpg" alt="新規顧客獲得セミナー 製造業・建設業のための“ゼロから学ぶ”WEBマーケティングセミナーお申し込み">
+                              </a>
+                            </li>
+                        </ul>
+          </div><!--/#seminar-->
+
+
+
+                    
+
+
+          <!-- 関連コンテンツ -->
+          <!--#include virtual="../../inc/service_contents.inc"-->
+
+          <div class="page-nav">
+            <ul class="clearfix">
+              <li class="prev"><a href="/ipros/tda/">お役立ち機能</a></li>
+              <li class="next"><a href="/ipros/ipros-kensetsu/">会員プラン</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <!--/.contents-area-->
+
+      </div>
+      <!--/#mainContens-->
+
+      <!--#include virtual="../../inc/service_sidenav.inc"-->
+
+    </div>
+  </div>
+
+  <!-- お問い合わせ -->
+  <!--#include virtual="../../inc/information.inc"-->
+
+</div>
+<!--/#contents-->
+
+<!--#include virtual="../../inc/footer.inc"-->
+
+</body>
+</html>

@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+.contents-area{
+	padding:30px 0;
+}
+
+
+#h1-area h1{
+	width:980px;
+	margin:0 auto;
+	font-size:32px;
+	font-weight:normal;
+	padding:30px 0;
+}
+
+#inquiry-form{
+	width:100%;
+	background:#fff;
+	font-size:16px;
+	border:#ddd 1px solid;
+}
+
+#inquiry-form th,
+#inquiry-form td{
+	border:#ddd 1px solid;
+	padding:30px;
+	text-align:left;
+	line-height:1.8;
+}
+
+#inquiry-form th{
+	width:390px;
+	font-weight:bold;
+}
+
+#inquiry-form th .thin{
+	font-weight:normal;
+}
+
+#inquiry-form td input[type="text"]{
+	margin-right:10px;
+	width:300px;
+	padding:5px 0;
+	border:#ddd 1px solid;
+	font-size:16px;
+	box-shadow:none;
+
+}
+
+#inquiry-form td textarea{
+	width:520px;
+	height:120px;
+	border:#ddd 1px solid;
+}
+
+#inquiry-form td select{
+	font-size:16px;
+	border:none;	
+}
+
+
+#inquiry-form .title{
+	text-align:center
+}
+
+
+#inquiry-form #privacy{
+	text-align:center;
+}
+
+#inquiry-form #privacy a{
+	color:#1111cc;
+}
+
+#inquiry-form #privacy input {
+    background: #E30214 none repeat scroll 0 0;
+    border-radius: 3px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+	border-style: none;
+    text-decoration: none;
+	font-size:16px;
+	color:#fff;
+    width: 470px;
+	margin:0 auto;
+}
+
+#inquiry-form td .custom {
+  width:300px;
+  display: block;
+  position:relative;
+  border:#ddd 1px solid;
+  overflow: hidden;
+  font-size:16px;
+}
+#inquiry-form td .custom > select {
+  width: 130%;
+  background:url(/form/img/select_btn.gif) 270px no-repeat;
+  box-shadow:none;
+}
+
+
+@media screen and (max-width: 640px){
+#h1-area h1{
+	width:100%;
+	margin:0;
+	font-size:27px;
+	font-weight:normal;
+	text-align:center;
+}
+
+#form{
+	width:96%;
+	padding:0 2%;
+}
+
+#inquiry-form{
+	width:100%;
+	background:#FAFAFA;
+	font-size:16px;
+	margin:0 auto;
+	border:none;
+	display:block;
+
+}
+
+#inquiry-form tbody{
+	display:block;
+}
+
+#inquiry-form th,
+#inquiry-form td{
+	text-align:left;
+	line-height:1.8;
+	display:block;
+	width:100%;
+	margin:0 auto;
+	border:none;
+	padding:0;
+}
+
+#inquiry-form .title{
+	display:block;
+	text-align:center;
+
+}
+
+#inquiry-form tr{
+	display:block;
+	margin-bottom:30px;
+}
+
+#inquiry-form td input[type="text"]{
+	width:100%;
+	height:40px;
+	border:#ddd 1px solid;
+	font-size:16px;
+
+}
+
+#inquiry-form td textarea{
+	width:100%;
+	height:100%;
+	border:#ddd 1px solid;
+	font-size:130%;
+}
+
+#inquiry-form #privacy input {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 3px;
+    width: 100%;
+	margin:0 auto;
+	font-size:130%;
+	margin-top:10px;
+}
+
+.sp-only{
+	margin-left:2%;
+}
+
+#inquiry-form td .custom {
+  width:100%;
+  height:40px;
+  background:#fff;
+}
+
+#inquiry-form td .custom > select {
+  width: 130%;
+  background:url(/form/img/select_btn.gif) 74% no-repeat #fff;
+  font-size:120%;
+  padding-top:2%;
+  
+}
+
+
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device #h1-area h1{
+	width:100%;
+	margin:0;
+	font-size:27px;
+	font-weight:normal;
+	padding-left:1%
+}
+
+.sp_device #form{
+	width:96%;
+	padding:0 2%;
+}
+
+.sp_device #inquiry-form{
+	width:100%;
+	background:#FAFAFA;
+	font-size:130%;
+	margin:0 auto;
+	border:none;
+	display:block;
+
+}
+
+.sp_device #inquiry-form tbody{
+	display:block;
+}
+
+.sp_device #inquiry-form th,
+.sp_device #inquiry-form td{
+	text-align:left;
+	line-height:1.8;
+	display:block;
+	width:100%;
+	margin:0 auto;
+	border:none;
+	padding:0;
+}
+
+.sp_device #inquiry-form tr{
+	display:block;
+	margin-bottom:30px;
+}
+
+.sp_device #inquiry-form td input[type="text"]{
+	width:100%;
+	height:40px;
+	border:#ddd 1px solid;
+	font-size:130%;
+
+}
+
+.sp_device #inquiry-form td textarea{
+	width:100%;
+	height:100%;
+	border:#ddd 1px solid;
+	font-size:130%;
+}
+
+.sp_device #inquiry-form #privacy input {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 3px;
+    width: 100%;
+	margin:0 auto;
+	font-size:130%;
+	margin-top:10px;
+}
+
+.sp_device .sp-only{
+	margin-left:2%;
+}
+
+.sp_device #inquiry-form td .custom {
+  width:100%;
+  height:40px;
+  background:#fff;
+}
+
+.sp_device #inquiry-form td .custom > select {
+  width: 130%;
+  background:url(/form/img/select_btn.gif) 74% no-repeat #fff;
+  font-size:120%;
+  padding-top:2%;
+  
+}
+
+.sp_device #inquiry-form .title{
+	display:block;
+	text-align:center;
+
+}
+

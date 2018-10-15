@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+共通
+============================*/
+
+#contents{
+
+}
+
+.main.bg-gray{
+	padding-top:60px;
+}
+
+.main .cont-l{
+	width:470px;
+	float:left;
+}
+.main .cont-r{
+	width:470px;
+	float:right;
+}
+.main .list-box{
+}
+.main .list-box ol{
+	padding: 15px 15px 40px;
+}
+.main .list-box ol li{
+	padding-left:1em;
+	background: url(../../common/img/arrow8.png) top left no-repeat;
+	padding-bottom:14px;
+/*	line-height: 2.15;*/
+}
+.main .list-box ol li.blank-icon a{
+	padding-right: 20px;
+	background: url(../../common/img/icon_window.png) right center no-repeat;
+	line-height:1.5;
+}
+
+.pb60{
+	padding-bottom:60px;
+}
+
+
+@media screen and (max-width: 640px){
+
+.main .cont-l,
+.main .cont-r{
+	width:100%;
+	float:none;
+}
+.main .list-box.mb60{
+	margin-bottom: 0;
+}
+.main .list-box ol{
+	padding: 2px 2% 10%;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device .main .cont-l,
+.sp_device .main .cont-r{
+	width:100%;
+	float:none;
+}
+.sp_device .main .list-box.mb60{
+	margin-bottom: 0;
+}
+.sp_device .main .list-box ol{
+	padding: 2px 2% 10%;
+}
+
+/*============================
+追記分
+============================*/
+
+.pc-only-mb60{
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 640px){
+.sp-only-mb00{
+	margin-bottom: 0;
+}

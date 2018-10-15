@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================
+#header-wrap
+============================*/
+#header-wrap{
+	width:100%;
+/*	border-bottom:#ddd solid 1px;*/
+	z-index:100;
+	position:relative;
+}
+#sp-header,
+#sp-g-nav-area{
+	display:none;
+}
+/*============================
+#header
+============================*/
+#header{
+}
+#header .logo-area{
+	margin:20px 0 0;
+	width:471px;
+	float:left;
+}
+#header .logo{
+	float:left;
+	margin-bottom:9px;
+	margin-right:20px;
+}
+#header .logo-txt1{
+	float:left;
+	margin-top:13px;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+#header .logo-txt2{
+	clear:left;
+	font-size:12px;
+	color:#666;
+}
+
+
+
+@media screen and (max-width: 640px){
+#header-wrap #header{
+	display:none;
+}
+#header-wrap #sp-header{
+	display:block;
+	border-bottom:#ddd solid 1px;
+}
+#header-wrap #sp-header{
+	position:relative;
+}
+
+#header-wrap #sp-header .logo{
+	text-align:center;
+	padding:20px 0;
+}
+
+#header-wrap #sp-header .logo img{
+	width:83px;
+}
+
+
+}
+
+/*============================
+.sp_device
+============================*/
+
+.sp_device #header-wrap #header,
+.sp_device #header-wrap #g-nav-area{
+	display:none;
+}
+.sp_device #header-wrap #sp-header,
+.sp_device #header-wrap #sp-g-nav-area{
+	display:block;
+	border-bottom:#ddd solid 1px;
+}
+.sp_device #header-wrap #sp-header{
+	position:relative;
+}
+
+.sp_device #header-wrap #sp-header .logo{
+	text-align:center;
+	padding:20px 0;
+}
+
+.sp_device #header-wrap #sp-header .logo img{
+	width:83px;
+}

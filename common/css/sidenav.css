@@ -1,0 +1,139 @@
+#side-nav{
+	margin-left:20px;
+	float:left;
+	width:230px;
+}
+#side-nav a:hover{
+	text-decoration:none;
+}
+#side-nav .side-ttl{
+	display:table-cell;
+	box-sizing:border-box;
+	width: 230px;
+	height: 130px;
+	padding:15px;
+	vertical-align:middle;
+	background:#343434;
+}
+#side-nav .side-ttl h2{
+	font-size: 20px;
+	font-weight: normal;
+	line-height:1.4;
+	color:#FFF;
+	text-align:center;
+}
+#side-nav .side-ttl p{
+	margin-top: 15px;
+	text-align:center;
+}
+#side-nav .side-ttl p a{
+	display:inline-block;
+	border: 1px solid #717171;
+	padding:5px 15px 5px 37px;
+	color:#FFF;
+	background:url(/common/img/side_arrow1.png) 15px center no-repeat #343434;
+}
+#side-nav .side-ttl p a:hover{
+	border: 1px solid #343434;
+	color:#333;
+	background:url(/common/img/side_arrow5.png) 15px center no-repeat #EEE;
+}
+#side-nav .side-nav-list dt{
+	font-size: 16px;
+}
+#side-nav .side-nav-list dt a{
+	display:block;
+	padding:15px 15px 15px 37px;
+	background:url(/common/img/side_arrow2.png) 15px center no-repeat #EEE;
+}
+#side-nav .side-nav-list li{
+	font-size: 16px;
+}
+#side-nav .side-nav-list li a{
+	display:block;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	padding:15px 15px 15px 52px;
+	background:url(/common/img/side_arrow4.png) 35px center no-repeat;
+}
+#side-nav .side-nav-list li:last-child{
+	border-bottom: 1px solid #EEE;
+}
+#side-nav .side-nav-list li a.active,
+#side-nav .side-nav-list li a:hover{
+	border-color: #9a9a9a;
+	color:#FFF;
+	background:url(/common/img/side_arrow3.png) 35px center no-repeat #9a9a9a;
+}
+#side-nav .side-contact-box{
+	margin-top: 20px;
+	border: 1px solid #EEE;
+	padding:14px;
+  background: url(/common/img/info_bg.gif) repeat left;
+	background-size:500px;
+}
+#side-nav .side-contact-box p{
+	font-size: 16px;
+	text-align:center;
+}
+#side-nav .side-contact-box .btn{
+	margin-top: 10px;
+}
+#side-nav .side-contact-box .btn li{
+	display:table;
+	width: 100%;
+	margin-top: 5px;
+}
+#side-nav .side-contact-box .btn a{
+	display: table-cell;
+	height:2em;
+	border-radius: 5px;
+	padding:10px 5px 10px 46px;
+	font-size: 16px;
+	line-height:1.3;
+	vertical-align:middle;
+	color:#FFF;
+	background-color:#e30214;
+	background-repeat:no-repeat;
+}
+#side-nav .side-contact-box .btn .contct-btn a{
+	background-position:15px center;
+	background-image:url(/common/img/icon_document.png);
+	background-size:25px;
+}
+#side-nav .side-contact-box .btn .event-btn a{
+	background-position:10px center;
+	background-image:url(/common/img/icon_event.png);
+	background-size:30px;
+}
+#side-nav .side-contact-box .btn a:hover{
+	opacity:0.75;
+}
+
+@media screen and (max-width: 640px){
+	
+#side-nav{
+	display:none;
+}
+
+}
+
+/*============================
+.sp_device
+============================*/
+.sp_device #side-nav{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
